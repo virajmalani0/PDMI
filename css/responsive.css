@@ -1,0 +1,18 @@
+@media screen and (min-width: 600px) {
+     .banner_text p{
+          font-size: 40px;
+          font-weight: 600;
+     }
+}
+@media screen and (max-width: 768px) {
+     .banner_text p{
+          width: 70%;
+          font-size: 20px;
+          font-weight: 600;
+          margin: auto;
+     }
+     .perfect_home_img::after{
+          right: 0 !important;
+          width: 97% !important;
+     }
+}
