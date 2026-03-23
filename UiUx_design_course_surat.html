@@ -1,227 +1,403 @@
-﻿
-@{
-    ViewBag.Title = "UiUx_design_course_surat";
-}
-<div class="sub-page-banner">
-    <div class="sub-page-banner-layer d-flex justify-content-center align-items-center">
-        <div class="text-center">
-            <p class="sub-page-title mb-3">
-                Ui/Ux design
-            </p>
-            <p class="sub-menu-link">
-                <a href="~/home/index">Home</a> <span class="mx-1">/</span> <a href="~/home/UiUx_design_course_surat">Ui/Ux design</a>
-            </p>
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UiUx design course surat</title>
+
+    <link href="./images/favicon.ico" rel="icon" />
+    <link href="./css/all.min.css" rel="stylesheet" />
+    <link href="./css/animate.min.css" rel="stylesheet" />
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="./css/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="./css/responsive.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+
+    <script src="./Scripts/bootstrap.bundle.min.js"></script>
+    <script src="./Scripts/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="./Scripts/owl.carousel.min.js"></script>
+
+    <!-- Magnific Popup JS -->
+
+    <script src="./Scripts/style.js"></script>
+</head>
+
+<body>
+    <div id="header"></div>
+    <script>
+        fetch("header.html")
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById("header").innerHTML = data;
+            });
+    </script>
+    <div class="sub-page-banner">
+        <div class="sub-page-banner-layer d-flex justify-content-center align-items-center">
+            <div class="text-center">
+                <p class="sub-page-title mb-3">
+                    Ui/Ux design
+                </p>
+                <p class="sub-menu-link">
+                    <a href="./index.html">Home</a> <span class="mx-1">/</span> <a
+                        href="./UiUx_design_course_surat.html">Ui/Ux design</a>
+                </p>
+            </div>
         </div>
     </div>
-</div>
-<div class="spacer">
-    <div class="container">
-        <div class="row justify-content-between position-relative">
-            <div class="col-lg-8">
-                <div>
-                    <img src="~/images/uiux.jpg" />
-                </div>
-                <div>
-                    <div class="student-rating-star d-flex gap-1 mt-3 fs-6">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                    <h2 class="course-page-title mt-3" title="web design course in surat">
-                        Ui/Ux Design Course
-                    </h2>
-                    <hr />
+    <div class="spacer">
+        <div class="container">
+            <div class="row justify-content-between position-relative">
+                <div class="col-lg-8">
                     <div>
-                        <div class="nav course-details-nav" id="nav-tab" role="tablist">
-                            <button class="nav-link border-0 active me-3" id="nav-overview-tab" data-bs-toggle="tab" data-bs-target="#nav-overview" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Overview</button>
-                            <button class="nav-link border-0 me-3" id="nav-topic-tab" data-bs-toggle="tab" data-bs-target="#nav-topic" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Topics</button>
+                        <img src="./images/uiux.jpg" />
+                    </div>
+                    <div>
+                        <div class="student-rating-star d-flex gap-1 mt-3 fs-6">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
                         </div>
-
-                        <div class="tab-content mt-4">
-                            <div class="tab-pane fade show active" id="nav-overview" role="tabpanel" aria-labelledby="nav-overview-tab">
-                                <h4 class="mb-3">What is UI/UX Design? </h4>
-                                <p>
-                                    UI (User Interface) Design focuses on the look and interactive elements of a digital product. It involves designing every visual aspect—buttons, icons, images, and typography—that users interact with on websites, apps, or software.
-                                </p>
-                                <p>
-                                    UX (User Experience) Design emphasizes the overall feel of the user’s journey through a digital product. It deals with the process of research, wireframing, and testing to ensure that the product is intuitive, easy to use, and provides a seamless experience.
-                                </p>
-                                <h5 class="mb-3">Why Choose UI/UX Design as a Career?</h5>
-                                <p>
-                                    The UI/UX Design field is booming. With the rise of digital platforms and mobile apps, companies are increasingly investing in exceptional user experiences to stand out. By pursuing a career in UI/UX Design, you’ll be in a high-demand field where creativity meets functionality.
-                                </p>
-                                <h5 class="mb-3">UI/UX Design Course Curriculum:</h5>
-                                <ul>
-                                    <li>
-                                        User Research & Personas
-                                    </li>
-                                    <li>
-                                        Wireframing & Prototyping
-                                    </li>
-                                    <li>
-                                        User Interface Design
-                                    </li>
-                                    <li>
-                                        Interaction Design Principles
-                                    </li>
-                                    <li>
-                                        Information Architecture
-                                    </li>
-                                    <li>
-                                        Visual Design
-                                    </li>
-                                    <li>
-                                        Usability Testing
-                                    </li>
-                                    <li>
-                                        Design Systems & Branding
-                                    </li>
-                                    <li>
-                                        Job Assistance and Career Support
-                                    </li>
-                                </ul>
-                                <p></p>
-                                <h5 class="mb-3">Why Pari Design & Multimedia Institute?</h5>
-                                <p class="mb-3">
-                                    100% Job Placement Support: We guide you from learning to landing a job.<br />
-                                    Affordable Fees: Get top-quality training at competitive course fees.<br />
-                                    Expert Faculty: Learn from experienced UI/UX designers who are passionate about teaching.<br />
-                                    State-of-the-Art Labs: Hands-on training with the latest tools and technologies.<br />
-                                    Comprehensive Learning: A perfect blend of theory, practicals, and live projects.
-                                </p>
+                        <h2 class="course-page-title mt-3" title="web design course in surat">
+                            Ui/Ux Design Course
+                        </h2>
+                        <hr />
+                        <div>
+                            <div class="nav course-details-nav" id="nav-tab" role="tablist">
+                                <button class="nav-link border-0 active me-3" id="nav-overview-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-overview" type="button" role="tab" aria-controls="nav-home"
+                                    aria-selected="true">Overview</button>
+                                <button class="nav-link border-0 me-3" id="nav-topic-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-topic" type="button" role="tab" aria-controls="nav-profile"
+                                    aria-selected="false">Topics</button>
                             </div>
 
-                            <div class="tab-pane fade" id="nav-topic" role="tabpanel" aria-labelledby="nav-topic-tab">
-                                <div class="accordion accordion-flush" id="accordionFlushExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                                Photoshop
-                                            </button>
-                                        </h2>
-                                        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Introduction to Photoshop</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Color Correction</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Image Editing</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Typography</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Character Design</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Mockup Design</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Marketing post Design</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Product and Website Banner Design</li>
-                                                </ul>
+                            <div class="tab-content mt-4">
+                                <div class="tab-pane fade show active" id="nav-overview" role="tabpanel"
+                                    aria-labelledby="nav-overview-tab">
+                                    <h4 class="mb-3">What is UI/UX Design? </h4>
+                                    <p>
+                                        UI (User Interface) Design focuses on the look and interactive elements of a
+                                        digital product. It involves designing every visual aspect—buttons, icons,
+                                        images, and typography—that users interact with on websites, apps, or software.
+                                    </p>
+                                    <p>
+                                        UX (User Experience) Design emphasizes the overall feel of the user’s journey
+                                        through a digital product. It deals with the process of research, wireframing,
+                                        and testing to ensure that the product is intuitive, easy to use, and provides a
+                                        seamless experience.
+                                    </p>
+                                    <h5 class="mb-3">Why Choose UI/UX Design as a Career?</h5>
+                                    <p>
+                                        The UI/UX Design field is booming. With the rise of digital platforms and mobile
+                                        apps, companies are increasingly investing in exceptional user experiences to
+                                        stand out. By pursuing a career in UI/UX Design, you’ll be in a high-demand
+                                        field where creativity meets functionality.
+                                    </p>
+                                    <h5 class="mb-3">UI/UX Design Course Curriculum:</h5>
+                                    <ul>
+                                        <li>
+                                            User Research & Personas
+                                        </li>
+                                        <li>
+                                            Wireframing & Prototyping
+                                        </li>
+                                        <li>
+                                            User Interface Design
+                                        </li>
+                                        <li>
+                                            Interaction Design Principles
+                                        </li>
+                                        <li>
+                                            Information Architecture
+                                        </li>
+                                        <li>
+                                            Visual Design
+                                        </li>
+                                        <li>
+                                            Usability Testing
+                                        </li>
+                                        <li>
+                                            Design Systems & Branding
+                                        </li>
+                                        <li>
+                                            Job Assistance and Career Support
+                                        </li>
+                                    </ul>
+                                    <p></p>
+                                    <h5 class="mb-3">Why Pari Design & Multimedia Institute?</h5>
+                                    <p class="mb-3">
+                                        100% Job Placement Support: We guide you from learning to landing a job.<br />
+                                        Affordable Fees: Get top-quality training at competitive course fees.<br />
+                                        Expert Faculty: Learn from experienced UI/UX designers who are passionate about
+                                        teaching.<br />
+                                        State-of-the-Art Labs: Hands-on training with the latest tools and
+                                        technologies.<br />
+                                        Comprehensive Learning: A perfect blend of theory, practicals, and live
+                                        projects.
+                                    </p>
+                                </div>
+
+                                <div class="tab-pane fade" id="nav-topic" role="tabpanel"
+                                    aria-labelledby="nav-topic-tab">
+                                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                                    aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                    Photoshop
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Introduction to Photoshop</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Color
+                                                            Correction</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Image
+                                                            Editing</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Typography</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Character
+                                                            Design</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Mockup
+                                                            Design</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Marketing
+                                                            post Design</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Product
+                                                            and Website Banner Design</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-Illustrator" aria-expanded="false" aria-controls="flush-Illustrator">
-                                                Illustrator
-                                            </button>
-                                        </h2>
-                                        <div id="flush-Illustrator" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i>Introduction to Illustrator</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i>Icon Design</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i>3D Design</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i>Perspective 3D</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i>2D / 3D Infographic Elements</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i>Isometric Elements</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i>Logo Design</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-Illustrator"
+                                                    aria-expanded="false" aria-controls="flush-Illustrator">
+                                                    Illustrator
+                                                </button>
+                                            </h2>
+                                            <div id="flush-Illustrator" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>Introduction
+                                                            to Illustrator</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>Icon
+                                                            Design</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>3D Design
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>Perspective
+                                                            3D</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>2D / 3D
+                                                            Infographic Elements</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>Isometric
+                                                            Elements</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>Logo
+                                                            Design</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-adobexd" aria-expanded="false" aria-controls="flush-adobexd">
-                                                Adobe XD
-                                            </button>
-                                        </h2>
-                                        <div id="flush-adobexd" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Introduction to UI/UX Design</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Introduction to DP ( Density Pixels )</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Types of Wireframing</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> UI Fundamentals</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Consistency of  Type, Color & Icon Introduction</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Workspace of AobeXD</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Hover Effect</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> UI kit design</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Onboarding Screens Prototype</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Plugin Installation</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Neumorphism Soft UI</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Unique Prototyping Tricks using Component</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Advance Prototyping</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-adobexd"
+                                                    aria-expanded="false" aria-controls="flush-adobexd">
+                                                    Adobe XD
+                                                </button>
+                                            </h2>
+                                            <div id="flush-adobexd" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Introduction to UI/UX Design</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Introduction to DP ( Density Pixels )</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Types of
+                                                            Wireframing</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> UI
+                                                            Fundamentals</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Consistency of Type, Color & Icon Introduction</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Workspace
+                                                            of AobeXD</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Hover
+                                                            Effect</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> UI kit
+                                                            design</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Onboarding Screens Prototype</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Plugin
+                                                            Installation</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Neumorphism Soft UI</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Unique
+                                                            Prototyping Tricks using Component</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Advance
+                                                            Prototyping</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-Figma" aria-expanded="false" aria-controls="flush-Figma">
-                                                Figma
-                                            </button>
-                                        </h2>
-                                        <div id="flush-Figma" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Introduction to Figma Design</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Type of Wireframing</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Consistancy of Color, Fonts, Grid, Color &amp; Icon</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Assets and File Manage</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Explore Text &amp; Styles</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Install Plugins</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Website Interactions &amp; Prototyping</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Global Design System for your Brand</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-Figma"
+                                                    aria-expanded="false" aria-controls="flush-Figma">
+                                                    Figma
+                                                </button>
+                                            </h2>
+                                            <div id="flush-Figma" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Introduction to Figma Design</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Type of
+                                                            Wireframing</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Consistancy of Color, Fonts, Grid, Color &amp; Icon</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Assets
+                                                            and File Manage</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Explore
+                                                            Text &amp; Styles</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Install
+                                                            Plugins</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Website
+                                                            Interactions &amp; Prototyping</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Global
+                                                            Design System for your Brand</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-aftereffects" aria-expanded="false" aria-controls="flush-aftereffects">
-                                                After Effects
-                                            </button>
-                                        </h2>
-                                        <div id="flush-aftereffects" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Intro. Tools and User interface</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Text, Shape, Layer Animation</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Composition work from Photoshop & Illustrator</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Child-Parenting & Layer Pre-composition</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Lottie File Animation</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Motion Sketch / Position Path / Trim Path</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Transfer Mode / Repeater</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Logo Promotion Video</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Application Promotion Video</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Working with sound</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Video Export</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-aftereffects"
+                                                    aria-expanded="false" aria-controls="flush-aftereffects">
+                                                    After Effects
+                                                </button>
+                                            </h2>
+                                            <div id="flush-aftereffects" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Intro.
+                                                            Tools and User interface</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Text,
+                                                            Shape, Layer Animation</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Composition work from Photoshop & Illustrator</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Child-Parenting & Layer Pre-composition</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Lottie
+                                                            File Animation</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Motion
+                                                            Sketch / Position Path / Trim Path</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Transfer
+                                                            Mode / Repeater</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Logo
+                                                            Promotion Video</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Application Promotion Video</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Working
+                                                            with sound</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Video
+                                                            Export</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-Live-Project" aria-expanded="false" aria-controls="flush-Live-Project">
-                                                Live Project
-                                            </button>
-                                        </h2>
-                                        <div id="flush-Live-Project" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Website Banner Design</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Game Background Design</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Create Game UI Design</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Create Mobile UI Design</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Create Web UI Design</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-Live-Project"
+                                                    aria-expanded="false" aria-controls="flush-Live-Project">
+                                                    Live Project
+                                                </button>
+                                            </h2>
+                                            <div id="flush-Live-Project" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Website
+                                                            Banner Design</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Game
+                                                            Background Design</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Create
+                                                            Game UI Design</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Create
+                                                            Mobile UI Design</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Create
+                                                            Web UI Design</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -229,87 +405,98 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row mt-4">
+                        <div class="col-lg-4 mb-lg-0 mb-3 px-lg-2 p-0">
+                            <div class="course-categories-box d-flex align-items-center justify-content-center">
+                                <div class="text-center">
+                                    <p><i class="fa-solid fa-book fs-1"></i></p>
+                                    <h5 class="text-white mt-2">
+                                        Course Duration
+                                    </h5>
+                                    <p>
+                                        10 Month
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-lg-0 mb-3 px-lg-2 p-0">
+                            <div
+                                class="course-categories-box course-categories-box1 d-flex align-items-center justify-content-center">
+                                <div class="text-center">
+                                    <p><i class="fa-solid fa-clock fs-1"></i></p>
+                                    <h5 class="text-white mt-2">
+                                        Lectures Duration
+                                    </h5>
+                                    <p>
+                                        2 + 2 Hourse / Day
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-lg-0 mb-3 px-lg-2 p-0">
+                            <div class="course-categories-box d-flex align-items-center justify-content-center">
+                                <div class="text-center">
+                                    <p><i class="fa-solid fa-graduation-cap fs-1"></i></p>
+                                    <h5 class="text-white mt-2">
+                                        Job Opportunities
+                                    </h5>
+                                    <p>
+                                        Yes
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="row mt-4">
-                    <div class="col-lg-4 mb-lg-0 mb-3 px-lg-2 p-0">
-                        <div class="course-categories-box d-flex align-items-center justify-content-center">
-                            <div class="text-center">
-                                <p><i class="fa-solid fa-book fs-1"></i></p>
-                                <h5 class="text-white mt-2">
-                                    Course Duration
-                                </h5>
-                                <p>
-                                    10 Month
-                                </p>
+                <div class="col-lg-4 ps-lg-5">
+                    <div class="p-4 border rounded position-sticky" style="top: 100px;">
+                        <h4 class="mb-3">Our Course</h4>
+                        <hr />
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="w-25">
+                                <img src="./images/web-design-banner.jpg" alt="web design course in vrachha" />
+                            </div>
+                            <div class="our-course-name">
+                                <a href="./web_design_course_surat.html">Web design</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 mb-lg-0 mb-3 px-lg-2 p-0">
-                        <div class="course-categories-box course-categories-box1 d-flex align-items-center justify-content-center">
-                            <div class="text-center">
-                                <p><i class="fa-solid fa-clock fs-1"></i></p>
-                                <h5 class="text-white mt-2">
-                                    Lectures Duration
-                                </h5>
-                                <p>
-                                    2 + 2 Hourse / Day
-                                </p>
+                        <div class="d-flex align-items-center gap-3 mt-3">
+                            <div class="w-25">
+                                <img src="./images/webdev.jpg" alt="web devlopment course in vrachha" />
+                            </div>
+                            <div class="our-course-name">
+                                <a href="./Web_Development_course_surat.html">Web devlopment</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 mb-lg-0 mb-3 px-lg-2 p-0">
-                        <div class="course-categories-box d-flex align-items-center justify-content-center">
-                            <div class="text-center">
-                                <p><i class="fa-solid fa-graduation-cap fs-1"></i></p>
-                                <h5 class="text-white mt-2">
-                                    Job Opportunities
-                                </h5>
-                                <p>
-                                    Yes
-                                </p>
+                        <div class="d-flex align-items-center gap-3 mt-3">
+                            <div class="w-25">
+                                <img src="./images/fullstack.jpg" alt="full stack devlopment course in vrachha" />
+                            </div>
+                            <div class="our-course-name">
+                                <a href="./Fullstack_Development_course_surat.html">Full Stack Devlopment</a>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 ps-lg-5">
-                <div class="p-4 border rounded position-sticky" style="top: 100px;">
-                    <h4 class="mb-3">Our Course</h4>
-                    <hr />
-                    <div class="d-flex align-items-center gap-3">
-                        <div class="w-25">
-                            <img src="~/images/web-design-banner.jpg" alt="web design course in vrachha" />
-                        </div>
-                        <div class="our-course-name">
-                            <a href="~/home/web_design_course_surat">Web design</a>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center gap-3 mt-3">
-                        <div class="w-25">
-                            <img src="~/images/webdev.jpg" alt="web devlopment course in vrachha" />
-                        </div>
-                        <div class="our-course-name">
-                            <a href="~/home/Web_Development_course_surat">Web devlopment</a>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center gap-3 mt-3">
-                        <div class="w-25">
-                            <img src="~/images/fullstack.jpg" alt="full stack devlopment course in vrachha" />
-                        </div>
-                        <div class="our-course-name">
-                            <a href="~/home/Fullstack_Development_course_surat">Full Stack Devlopment</a>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center gap-3 mt-3">
-                        <div class="w-25">
-                            <img src="~/images/uiux.jpg" alt="uiux design course in vrachha" />
-                        </div>
-                        <div class="our-course-name">
-                            <a href="~/home/UiUx_design_course_surat">Ui/Ux design</a>
+                        <div class="d-flex align-items-center gap-3 mt-3">
+                            <div class="w-25">
+                                <img src="./images/uiux.jpg" alt="uiux design course in vrachha" />
+                            </div>
+                            <div class="our-course-name">
+                                <a href="./UiUx_design_course_surat.html">Ui/Ux design</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+    <div id="footer"></div>
+    <script>
+        fetch("footer.html")
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById("footer").innerHTML = data;
+            });
+    </script>
+</body>
+
+</html>

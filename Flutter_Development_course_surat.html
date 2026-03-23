@@ -1,608 +1,1089 @@
-﻿
-@{
-    ViewBag.Title = "Flutter_Development_course_surat";
-}
+﻿<!DOCTYPE html>
+<html lang="en">
 
-<div class="sub-page-banner">
-    <div class="sub-page-banner-layer d-flex justify-content-center align-items-center">
-        <div class="text-center">
-            <p class="sub-page-title mb-3">
-                Flutter Development
-            </p>
-            <p class="sub-menu-link">
-                <a href="~/home/index">Home</a> <span class="mx-1">/</span> <a href="~/home/Flutter_Development_course_surat">Flutter Development</a>
-            </p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flutter development course surat</title>
+
+    <link href="./images/favicon.ico" rel="icon" />
+    <link href="./css/all.min.css" rel="stylesheet" />
+    <link href="./css/animate.min.css" rel="stylesheet" />
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="./css/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="./css/responsive.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+
+    <script src="./Scripts/bootstrap.bundle.min.js"></script>
+    <script src="./Scripts/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="./Scripts/owl.carousel.min.js"></script>
+
+    <!-- Magnific Popup JS -->
+
+    <script src="./Scripts/style.js"></script>
+</head>
+
+<body>
+    <div id="header"></div>
+    <script>
+        fetch("header.html")
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById("header").innerHTML = data;
+            });
+    </script>
+
+    <div class="sub-page-banner">
+        <div class="sub-page-banner-layer d-flex justify-content-center align-items-center">
+            <div class="text-center">
+                <p class="sub-page-title mb-3">
+                    Flutter Development
+                </p>
+                <p class="sub-menu-link">
+                    <a href="./index.html">Home</a> <span class="mx-1">/</span> <a
+                        href="./Flutter_Development_course_surat.html">Flutter Development</a>
+                </p>
+            </div>
         </div>
     </div>
-</div>
-<div class="spacer">
-    <div class="container">
-        <div class="row justify-content-between position-relative">
-            <div class="col-lg-8">
-                <div>
-                    <img src="~/images/fullstack.jpg" />
-                </div>
-                <div>
-                    <div class="student-rating-star d-flex gap-1 mt-3 fs-6">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                    <h2 class="course-page-title mt-3" title="Flutter Development course in surat">
-                        Flutter Development
-                    </h2>
-                    <hr />
+    <div class="spacer">
+        <div class="container">
+            <div class="row justify-content-between position-relative">
+                <div class="col-lg-8">
                     <div>
-                        <div class="nav course-details-nav" id="nav-tab" role="tablist">
-                            <button class="nav-link border-0 active me-3" id="nav-overview-tab" data-bs-toggle="tab" data-bs-target="#nav-overview" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Overview</button>
-                            <button class="nav-link border-0 me-3" id="nav-topic-tab" data-bs-toggle="tab" data-bs-target="#nav-topic" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Topics</button>
+                        <img src="./images/fullstack.jpg" />
+                    </div>
+                    <div>
+                        <div class="student-rating-star d-flex gap-1 mt-3 fs-6">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
                         </div>
-
-                        <div class="tab-content mt-4">
-                            <div class="tab-pane fade show active" id="nav-overview" role="tabpanel" aria-labelledby="nav-overview-tab">
-                                <h4 class="mb-3">What is Full Stack Development? </h4>
-                                <p>
-                                    A full stack developer is a professional who is proficient in both front-end (client-side) and back-end (server-side) technologies. Full stack development encompasses everything required to create and run web applications, including designing user interfaces, writing server-side logic, managing databases, and deploying applications to the web.
-                                </p>
-                                <h5 class="mb-3">Why Full Stack Development?</h5>
-                                <p>
-                                    With businesses moving online, the demand for skilled full stack developers has skyrocketed. Full stack developers can work on both the front-end and back-end of applications, making them highly valuable assets for any organization.
-                                </p>
-                                <h5 class="mb-3">Why Pari Design & Multimedia Institute?</h5>
-                                <p class="mb-3">
-                                    100% Job Placement Support: We guide you from learning to landing a job.<br />
-                                    Affordable Fees: Get top-quality training at competitive course fees.<br />
-                                    Expert Faculty: Learn from experienced UI/UX designers who are passionate about teaching.<br />
-                                    State-of-the-Art Labs: Hands-on training with the latest tools and technologies.<br />
-                                    Comprehensive Learning: A perfect blend of theory, practicals, and live projects.
-                                </p>
-                                <h5>
-                                    Why full stack development is a great career choice:
-                                </h5>
-                                <p></p>
-                                <p>
-                                    <strong>Versatility:</strong>You can work on both the client-side and server-side of applications, giving you a comprehensive understanding of web development.
-                                </p>
-                                <p>
-                                    <strong>High Demand:</strong>Full stack developers are in high demand across industries due to their ability to handle multiple aspects of web development.
-                                </p>
-                                <p>
-                                    <strong>Great Salary:</strong> As a full-stack developer, you are likely to command higher salaries compared to specialists who only work on either front-end or back-end.
-                                </p>
-                                <p>
-                                    <strong>Career Flexibility:</strong>You can work in various industries, including startups, tech companies, agencies, or as a freelancer.
-                                </p>
-                                <p>
-                                    <strong>End-to-End Understanding:</strong>: Full stack developers have complete control over a project, allowing them to understand every step of development and make informed decisions.
-                                <p>
-                                    At<strong>Pari Design & Multimedia Institute,</strong>  our Full Stack Development Course provides hands-on training on all the latest front-end and back-end technologies. Whether you are a beginner or looking to upgrade your skills, our course will equip you with the knowledge and practical experience required to become a successful full stack developer.
-                                </p>
+                        <h2 class="course-page-title mt-3" title="Flutter Development course in surat">
+                            Flutter Development
+                        </h2>
+                        <hr />
+                        <div>
+                            <div class="nav course-details-nav" id="nav-tab" role="tablist">
+                                <button class="nav-link border-0 active me-3" id="nav-overview-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-overview" type="button" role="tab" aria-controls="nav-home"
+                                    aria-selected="true">Overview</button>
+                                <button class="nav-link border-0 me-3" id="nav-topic-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-topic" type="button" role="tab" aria-controls="nav-profile"
+                                    aria-selected="false">Topics</button>
                             </div>
 
-                            <div class="tab-pane fade" id="nav-topic" role="tabpanel" aria-labelledby="nav-topic-tab">
-                                <div class="accordion accordion-flush" id="accordionFlushExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Programing" aria-expanded="false" aria-controls="Programing">
-                                                C Programing Concept
-                                            </button>
-                                        </h2>
-                                        <div id="Programing" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Basic Concept</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Control Statement</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Loop</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Array</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> String</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> User Define Function</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Dynamic Memory Allocations</li>
-                                                </ul>
+                            <div class="tab-content mt-4">
+                                <div class="tab-pane fade show active" id="nav-overview" role="tabpanel"
+                                    aria-labelledby="nav-overview-tab">
+                                    <h4 class="mb-3">What is Full Stack Development? </h4>
+                                    <p>
+                                        A full stack developer is a professional who is proficient in both front-end
+                                        (client-side) and back-end (server-side) technologies. Full stack development
+                                        encompasses everything required to create and run web applications, including
+                                        designing user interfaces, writing server-side logic, managing databases, and
+                                        deploying applications to the web.
+                                    </p>
+                                    <h5 class="mb-3">Why Full Stack Development?</h5>
+                                    <p>
+                                        With businesses moving online, the demand for skilled full stack developers has
+                                        skyrocketed. Full stack developers can work on both the front-end and back-end
+                                        of applications, making them highly valuable assets for any organization.
+                                    </p>
+                                    <h5 class="mb-3">Why Pari Design & Multimedia Institute?</h5>
+                                    <p class="mb-3">
+                                        100% Job Placement Support: We guide you from learning to landing a job.<br />
+                                        Affordable Fees: Get top-quality training at competitive course fees.<br />
+                                        Expert Faculty: Learn from experienced UI/UX designers who are passionate about
+                                        teaching.<br />
+                                        State-of-the-Art Labs: Hands-on training with the latest tools and
+                                        technologies.<br />
+                                        Comprehensive Learning: A perfect blend of theory, practicals, and live
+                                        projects.
+                                    </p>
+                                    <h5>
+                                        Why full stack development is a great career choice:
+                                    </h5>
+                                    <p></p>
+                                    <p>
+                                        <strong>Versatility:</strong>You can work on both the client-side and
+                                        server-side of applications, giving you a comprehensive understanding of web
+                                        development.
+                                    </p>
+                                    <p>
+                                        <strong>High Demand:</strong>Full stack developers are in high demand across
+                                        industries due to their ability to handle multiple aspects of web development.
+                                    </p>
+                                    <p>
+                                        <strong>Great Salary:</strong> As a full-stack developer, you are likely to
+                                        command higher salaries compared to specialists who only work on either
+                                        front-end or back-end.
+                                    </p>
+                                    <p>
+                                        <strong>Career Flexibility:</strong>You can work in various industries,
+                                        including startups, tech companies, agencies, or as a freelancer.
+                                    </p>
+                                    <p>
+                                        <strong>End-to-End Understanding:</strong>: Full stack developers have complete
+                                        control over a project, allowing them to understand every step of development
+                                        and make informed decisions.
+                                    <p>
+                                        At<strong>Pari Design & Multimedia Institute,</strong> our Full Stack
+                                        Development Course provides hands-on training on all the latest front-end and
+                                        back-end technologies. Whether you are a beginner or looking to upgrade your
+                                        skills, our course will equip you with the knowledge and practical experience
+                                        required to become a successful full stack developer.
+                                    </p>
+                                </div>
+
+                                <div class="tab-pane fade" id="nav-topic" role="tabpanel"
+                                    aria-labelledby="nav-topic-tab">
+                                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#Programing"
+                                                    aria-expanded="false" aria-controls="Programing">
+                                                    C Programing Concept
+                                                </button>
+                                            </h2>
+                                            <div id="Programing" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Basic
+                                                            Concept</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Control
+                                                            Statement</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Loop</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Array
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> String
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> User
+                                                            Define Function</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Dynamic
+                                                            Memory Allocations</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Concept" aria-expanded="false" aria-controls="Concept">
-                                                C++ Concept
-                                            </button>
-                                        </h2>
-                                        <div id="Concept" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Concept Of OOP</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Storage Classes</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Object and Class</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Inheritance</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Polymorphism</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Exception Handling</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#Concept"
+                                                    aria-expanded="false" aria-controls="Concept">
+                                                    C++ Concept
+                                                </button>
+                                            </h2>
+                                            <div id="Concept" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Concept
+                                                            Of OOP</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Storage
+                                                            Classes</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Object
+                                                            and Class</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Inheritance</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Polymorphism</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Exception
+                                                            Handling</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Java" aria-expanded="false" aria-controls="Java">
-                                                Java OOPs Concept
-                                            </button>
-                                        </h2>
-                                        <div id="Java" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Object</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Class</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Inheritance</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Polymorphism</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Abstraction</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Encapsulation</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#Java"
+                                                    aria-expanded="false" aria-controls="Java">
+                                                    Java OOPs Concept
+                                                </button>
+                                            </h2>
+                                            <div id="Java" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Object
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Class
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Inheritance</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Polymorphism</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Abstraction</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Encapsulation</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Introduction" aria-expanded="false" aria-controls="Introduction">
-                                                A Dart Introduction
-                                            </button>
-                                        </h2>
-                                        <div id="Introduction" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Dart Overview</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> DataTypes in Dart</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Type Conversation</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Operators in Dart</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> String interpolation</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Class - Object in Dart</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> OOP in Dart</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> List and Map in Dart</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Asynchronous Programming</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Exception Handling in Dart</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#Introduction"
+                                                    aria-expanded="false" aria-controls="Introduction">
+                                                    A Dart Introduction
+                                                </button>
+                                            </h2>
+                                            <div id="Introduction" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Dart
+                                                            Overview</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> DataTypes
+                                                            in Dart</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Type
+                                                            Conversation</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Operators
+                                                            in Dart</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> String
+                                                            interpolation</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Class -
+                                                            Object in Dart</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> OOP in
+                                                            Dart</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> List and
+                                                            Map in Dart</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Asynchronous Programming</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Exception
+                                                            Handling in Dart</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Installation" aria-expanded="false" aria-controls="Installation">
-                                                Introductiopn & Installation
-                                            </button>
-                                        </h2>
-                                        <div id="Installation" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Installation of Flutter</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Flutter Architecture</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Flutter Pre-requisites</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Set Up Your Environment</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Install Flutter SDK</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Install Android Studio</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Setup Android Emulator</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Mac: Install Xcode</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Mac: Setup Xcode iOS Simulator</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#Installation"
+                                                    aria-expanded="false" aria-controls="Installation">
+                                                    Introductiopn & Installation
+                                                </button>
+                                            </h2>
+                                            <div id="Installation" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Installation of Flutter</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Flutter
+                                                            Architecture</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Flutter
+                                                            Pre-requisites</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Set Up
+                                                            Your Environment</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Install
+                                                            Flutter SDK</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Install
+                                                            Android Studio</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Setup
+                                                            Android Emulator</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Mac:
+                                                            Install Xcode</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Mac:
+                                                            Setup Xcode iOS Simulator</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#State" aria-expanded="false" aria-controls="State">
-                                                State
-                                            </button>
-                                        </h2>
-                                        <div id="State" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Introduction of Widget</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> StatelessWidget</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> StatefullWidget</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#State"
+                                                    aria-expanded="false" aria-controls="State">
+                                                    State
+                                                </button>
+                                            </h2>
+                                            <div id="State" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Introduction of Widget</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            StatelessWidget</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            StatefullWidget</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Widgets" aria-expanded="false" aria-controls="Widgets">
-                                                Widgets
-                                            </button>
-                                        </h2>
-                                        <div id="Widgets" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Text</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> TextField</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Raised Button</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Switch</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> RadioListTile</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> CheckboxListTile</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Slider</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Snackbar</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Alert Dialog</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Datepicker</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Timepicker</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Circular Progress Indicator</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Dropdown Button</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Choice</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Chip</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Card</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Icon Button</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Audio Player</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Circle Image</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#Widgets"
+                                                    aria-expanded="false" aria-controls="Widgets">
+                                                    Widgets
+                                                </button>
+                                            </h2>
+                                            <div id="Widgets" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Text</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> TextField
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Raised
+                                                            Button</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Switch
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            RadioListTile</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            CheckboxListTile</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Slider
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Snackbar
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Alert
+                                                            Dialog</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Datepicker</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Timepicker</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Circular
+                                                            Progress Indicator</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Dropdown
+                                                            Button</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Choice
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Chip</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Card</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Icon
+                                                            Button</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Audio
+                                                            Player</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Circle
+                                                            Image</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Layouts" aria-expanded="false" aria-controls="Layouts">
-                                                Layouts
-                                            </button>
-                                        </h2>
-                                        <div id="Layouts" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Padding</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Center</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Row</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Column</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Container</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Sized Box</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Stack App</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Align Class</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Screen Orientation</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Aspect Ratio</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Hide Show Widget</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#Layouts"
+                                                    aria-expanded="false" aria-controls="Layouts">
+                                                    Layouts
+                                                </button>
+                                            </h2>
+                                            <div id="Layouts" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Padding
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Center
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Row</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Column
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Container
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Sized Box
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Stack App
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Align
+                                                            Class</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Screen
+                                                            Orientation</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Aspect
+                                                            Ratio</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Hide Show
+                                                            Widget</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Nsvigation" aria-expanded="false" aria-controls="Nsvigation">
-                                                Nsvigation With Flutter
-                                            </button>
-                                        </h2>
-                                        <div id="Nsvigation" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> App Bar</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Pass Data between Screens</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Route-based navigation</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Named Routing</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Tab</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Drawer</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> BottomNavigation</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#Nsvigation"
+                                                    aria-expanded="false" aria-controls="Nsvigation">
+                                                    Nsvigation With Flutter
+                                                </button>
+                                            </h2>
+                                            <div id="Nsvigation" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> App Bar
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Pass Data
+                                                            between Screens</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Route-based navigation</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Named
+                                                            Routing</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Tab</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Drawer
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            BottomNavigation</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Forms" aria-expanded="false" aria-controls="Forms">
-                                                Forms Amd Validations With Flutter
-                                            </button>
-                                        </h2>
-                                        <div id="Forms" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Design a form</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Custom keyboard type</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Form Validation</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Widgets with Global keys</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Widgets and FormStates</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Validation using FormState</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Retrieving Form Values</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#Forms"
+                                                    aria-expanded="false" aria-controls="Forms">
+                                                    Forms Amd Validations With Flutter
+                                                </button>
+                                            </h2>
+                                            <div id="Forms" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Design a
+                                                            form</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Custom
+                                                            keyboard type</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Form
+                                                            Validation</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Widgets
+                                                            with Global keys</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Widgets
+                                                            and FormStates</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Validation using FormState</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Retrieving Form Values</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Working" aria-expanded="false" aria-controls="Working">
-                                                Working With Lists
-                                            </button>
-                                        </h2>
-                                        <div id="Working" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> List View</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Grid View</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Page View</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#Working"
+                                                    aria-expanded="false" aria-controls="Working">
+                                                    Working With Lists
+                                                </button>
+                                            </h2>
+                                            <div id="Working" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> List View
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Grid View
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Page View
+                                                        </li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Platform" aria-expanded="false" aria-controls="Platform">
-                                                Platform Detection
-                                            </button>
-                                        </h2>
-                                        <div id="Platform" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Permissions Handling</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Platform Detection and Using Codes Accordingly (iOS and Android)</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Accessing Storage of Device</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#Platform"
+                                                    aria-expanded="false" aria-controls="Platform">
+                                                    Platform Detection
+                                                </button>
+                                            </h2>
+                                            <div id="Platform" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Permissions Handling</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Platform
+                                                            Detection and Using Codes Accordingly (iOS and Android)</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Accessing
+                                                            Storage of Device</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Asynchronous" aria-expanded="false" aria-controls="Asynchronous">
-                                                Asynchronous Functions
-                                            </button>
-                                        </h2>
-                                        <div id="Asynchronous" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> The ‘Future’ function.</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> ‘async’ and ‘await’</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Async* and yield</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#Asynchronous"
+                                                    aria-expanded="false" aria-controls="Asynchronous">
+                                                    Asynchronous Functions
+                                                </button>
+                                            </h2>
+                                            <div id="Asynchronous" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> The
+                                                            ‘Future’ function.</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> ‘async’
+                                                            and ‘await’</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Async*
+                                                            and yield</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Data" aria-expanded="false" aria-controls="Data">
-                                                Data Persistence
-                                            </button>
-                                        </h2>
-                                        <div id="Data" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Shared Preference</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> SQLite in Flutter</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#Data"
+                                                    aria-expanded="false" aria-controls="Data">
+                                                    Data Persistence
+                                                </button>
+                                            </h2>
+                                            <div id="Data" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Shared
+                                                            Preference</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> SQLite in
+                                                            Flutter</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Http" aria-expanded="false" aria-controls="Http">
-                                                Http & API Call
-                                            </button>
-                                        </h2>
-                                        <div id="Http" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Json Decoding</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Fetch JSON Data</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> HTTP package</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Dio Package</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> API Calling</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> POSTMAN</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#Http"
+                                                    aria-expanded="false" aria-controls="Http">
+                                                    Http & API Call
+                                                </button>
+                                            </h2>
+                                            <div id="Http" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Json
+                                                            Decoding</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Fetch
+                                                            JSON Data</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> HTTP
+                                                            package</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Dio
+                                                            Package</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> API
+                                                            Calling</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> POSTMAN
+                                                        </li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#PHP" aria-expanded="false" aria-controls="PHP">
-                                                PHP CONCEPTS / NODE JS CONCEPTS
-                                            </button>
-                                        </h2>
-                                        <div id="PHP" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Json Parsing</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Json Encoding</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> PHP Concepts</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> NodeJs Concept </li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> API Creation </li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#PHP"
+                                                    aria-expanded="false" aria-controls="PHP">
+                                                    PHP CONCEPTS / NODE JS CONCEPTS
+                                                </button>
+                                            </h2>
+                                            <div id="PHP" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Json
+                                                            Parsing</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Json
+                                                            Encoding</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> PHP
+                                                            Concepts</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> NodeJs
+                                                            Concept </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> API
+                                                            Creation </li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush" aria-expanded="false" aria-controls="flush">
-                                                State Management
-                                            </button>
-                                        </h2>
-                                        <div id="flush" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Provider</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i>  Bloc</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> GetX</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush"
+                                                    aria-expanded="false" aria-controls="flush">
+                                                    State Management
+                                                </button>
+                                            </h2>
+                                            <div id="flush" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Provider
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Bloc</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> GetX</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Provider" aria-expanded="false" aria-controls="Provider">
-                                                Provider
-                                            </button>
-                                        </h2>
-                                        <div id="Provider" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Provider</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> ListenableProvider</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> ChangeNotifierProvider</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> ValueListenableProvider</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> StreamProvider</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> FutureProvider</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> MultiProvider</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#Provider"
+                                                    aria-expanded="false" aria-controls="Provider">
+                                                    Provider
+                                                </button>
+                                            </h2>
+                                            <div id="Provider" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Provider
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            ListenableProvider</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            ChangeNotifierProvider</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            ValueListenableProvider</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            StreamProvider</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            FutureProvider</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            MultiProvider</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Packages" aria-expanded="false" aria-controls="Packages">
-                                                Packages
-                                            </button>
-                                        </h2>
-                                        <div id="Packages" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> using 3rd Party Packages</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Dependency Injection</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Payment Gateway</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#Packages"
+                                                    aria-expanded="false" aria-controls="Packages">
+                                                    Packages
+                                                </button>
+                                            </h2>
+                                            <div id="Packages" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> using 3rd
+                                                            Party Packages</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Dependency Injection</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Payment
+                                                            Gateway</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Firebase" aria-expanded="false" aria-controls="Firebase">
-                                               Firebase
-                                            </button>
-                                        </h2>
-                                        <div id="Firebase" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Introduction</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Google login</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Facebook Login</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Phone Number</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Email & Password</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Real-time Database</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Cloud Storage</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Notification</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#Firebase"
+                                                    aria-expanded="false" aria-controls="Firebase">
+                                                    Firebase
+                                                </button>
+                                            </h2>
+                                            <div id="Firebase" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Introduction</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Google
+                                                            login</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Facebook
+                                                            Login</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Phone
+                                                            Number</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Email &
+                                                            Password</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Real-time
+                                                            Database</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Cloud
+                                                            Storage</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Notification</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Project" aria-expanded="false" aria-controls="Project">
-                                                Project Work
-                                            </button>
-                                        </h2>
-                                        <div id="Project" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> BMI Calculator  </li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i>  Tic-Tac-Toe  </li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Notes App  </li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i>  Puzzle App  </li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Resume Maker  Translating App  </li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i>  Music Player / Video Player  </li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i>  E-commerce App Social Media Login  </li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i>  PDF Maker App  </li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Image Editing App  </li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i>  Location Base App</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i>  QR Code Scanner App  </li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Informational App  </li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i>  Wallpaper App  </li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i>  ERP System</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i>  Weather App</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#Project"
+                                                    aria-expanded="false" aria-controls="Project">
+                                                    Project Work
+                                                </button>
+                                            </h2>
+                                            <div id="Project" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> BMI
+                                                            Calculator </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Tic-Tac-Toe </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Notes App
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Puzzle
+                                                            App </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Resume
+                                                            Maker Translating App </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Music
+                                                            Player / Video Player </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            E-commerce App Social Media Login </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> PDF Maker
+                                                            App </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Image
+                                                            Editing App </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Location
+                                                            Base App</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> QR Code
+                                                            Scanner App </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Informational App </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Wallpaper
+                                                            App </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> ERP
+                                                            System</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Weather
+                                                            App</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Deployment" aria-expanded="false" aria-controls="Deployment">
-                                                App Deployment
-                                            </button>
-                                        </h2>
-                                        <div id="Deployment" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Build & Release App for Android / iOs</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Deploy on App Store</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Deploy on Play Store</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#Deployment"
+                                                    aria-expanded="false" aria-controls="Deployment">
+                                                    App Deployment
+                                                </button>
+                                            </h2>
+                                            <div id="Deployment" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Build &
+                                                            Release App for Android / iOs</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Deploy on
+                                                            App Store</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Deploy on
+                                                            Play Store</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Freelancing" aria-expanded="false" aria-controls="Freelancing">
-                                               Freelancing
-                                            </button>
-                                        </h2>
-                                        <div id="Freelancing" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> What's Freelancing & How does it work?</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Different websites for Freelancing</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Freelancer, Upwork and Fiverr Profile setup</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Top Skills in demand for freelancing</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Project Bid Technique</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Client Communication</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Client retention and ways to get 5 star reviews</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#Freelancing"
+                                                    aria-expanded="false" aria-controls="Freelancing">
+                                                    Freelancing
+                                                </button>
+                                            </h2>
+                                            <div id="Freelancing" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> What's
+                                                            Freelancing & How does it work?</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Different
+                                                            websites for Freelancing</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Freelancer, Upwork and Fiverr Profile setup</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Top
+                                                            Skills in demand for freelancing</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Project
+                                                            Bid Technique</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Client
+                                                            Communication</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Client
+                                                            retention and ways to get 5 star reviews</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Web" aria-expanded="false" aria-controls="Web">
-                                                Flutter In Web
-                                            </button>
-                                        </h2>
-                                        <div id="Web" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Web App UI Design</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Single Page Complete Website</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Responsive Web Design</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Web App Material Design</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Web Development</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#Web"
+                                                    aria-expanded="false" aria-controls="Web">
+                                                    Flutter In Web
+                                                </button>
+                                            </h2>
+                                            <div id="Web" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Web App
+                                                            UI Design</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Single
+                                                            Page Complete Website</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Responsive Web Design</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Web App
+                                                            Material Design</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Web
+                                                            Development</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Game" aria-expanded="false" aria-controls="Game">
-                                                Flutter In Game
-                                            </button>
-                                        </h2>
-                                        <div id="Game" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Introduction</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Download Free Game Assets</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Game Widgets</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> SpriteWidget</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> set Audio In Games</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Game Engine</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Games services</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#Game"
+                                                    aria-expanded="false" aria-controls="Game">
+                                                    Flutter In Game
+                                                </button>
+                                            </h2>
+                                            <div id="Game" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Introduction</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Download
+                                                            Free Game Assets</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Game
+                                                            Widgets</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            SpriteWidget</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> set Audio
+                                                            In Games</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Game
+                                                            Engine</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Games
+                                                            services</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Desktop" aria-expanded="false" aria-controls="Desktop">
-                                                Flutter In Desktop
-                                            </button>
-                                        </h2>
-                                        <div id="Desktop" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Setup on Windows</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Introduction of Visual Studio</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Setup Visual Studio</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Deployment of  Desktop App</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#Desktop"
+                                                    aria-expanded="false" aria-controls="Desktop">
+                                                    Flutter In Desktop
+                                                </button>
+                                            </h2>
+                                            <div id="Desktop" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Setup on
+                                                            Windows</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Introduction of Visual Studio</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Setup
+                                                            Visual Studio</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Deployment of Desktop App</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Git" aria-expanded="false" aria-controls="Git">
-                                                Git Management
-                                            </button>
-                                        </h2>
-                                        <div id="Git" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Create Account in GitHub</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Upload Project</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Maintain Project in Github</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#Git"
+                                                    aria-expanded="false" aria-controls="Git">
+                                                    Git Management
+                                                </button>
+                                            </h2>
+                                            <div id="Git" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Create
+                                                            Account in GitHub</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Upload
+                                                            Project</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Maintain
+                                                            Project in Github</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -610,90 +1091,98 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row mt-4">
+                        <div class="col-lg-4 mb-lg-0 mb-3 px-lg-2 p-0">
+                            <div class="course-categories-box d-flex align-items-center justify-content-center">
+                                <div class="text-center">
+                                    <p><i class="fa-solid fa-book fs-1"></i></p>
+                                    <h5 class="text-white mt-2">
+                                        Course Duration
+                                    </h5>
+                                    <p>
+                                        12 Month
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-lg-0 mb-3 px-lg-2 p-0">
+                            <div
+                                class="course-categories-box course-categories-box1 d-flex align-items-center justify-content-center">
+                                <div class="text-center">
+                                    <p><i class="fa-solid fa-clock fs-1"></i></p>
+                                    <h5 class="text-white mt-2">
+                                        Lectures Duration
+                                    </h5>
+                                    <p>
+                                        2 + 2 Hourse / Day
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-lg-0 mb-3 px-lg-2 p-0">
+                            <div class="course-categories-box d-flex align-items-center justify-content-center">
+                                <div class="text-center">
+                                    <p><i class="fa-solid fa-graduation-cap fs-1"></i></p>
+                                    <h5 class="text-white mt-2">
+                                        Job Opportunities
+                                    </h5>
+                                    <p>
+                                        Yes
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="row mt-4">
-                    <div class="col-lg-4 mb-lg-0 mb-3 px-lg-2 p-0">
-                        <div class="course-categories-box d-flex align-items-center justify-content-center">
-                            <div class="text-center">
-                                <p><i class="fa-solid fa-book fs-1"></i></p>
-                                <h5 class="text-white mt-2">
-                                    Course Duration
-                                </h5>
-                                <p>
-                                    12 Month
-                                </p>
+                <div class="col-lg-4 ps-lg-5">
+                    <div class="p-4 border rounded position-sticky" style="top: 100px;">
+                        <h4 class="mb-3">Our Course</h4>
+                        <hr />
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="w-25">
+                                <img src="./images/web-design-banner.jpg" alt="web design course in vrachha" />
+                            </div>
+                            <div class="our-course-name">
+                                <a href="./web_design_course_surat.html">Web design</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 mb-lg-0 mb-3 px-lg-2 p-0">
-                        <div class="course-categories-box course-categories-box1 d-flex align-items-center justify-content-center">
-                            <div class="text-center">
-                                <p><i class="fa-solid fa-clock fs-1"></i></p>
-                                <h5 class="text-white mt-2">
-                                    Lectures Duration
-                                </h5>
-                                <p>
-                                    2 + 2 Hourse / Day
-                                </p>
+                        <div class="d-flex align-items-center gap-3 mt-3">
+                            <div class="w-25">
+                                <img src="./images/webdev.jpg" alt="web devlopment course in vrachha" />
+                            </div>
+                            <div class="our-course-name">
+                                <a href="./Web_Development_course_surat.html">Web devlopment</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 mb-lg-0 mb-3 px-lg-2 p-0">
-                        <div class="course-categories-box d-flex align-items-center justify-content-center">
-                            <div class="text-center">
-                                <p><i class="fa-solid fa-graduation-cap fs-1"></i></p>
-                                <h5 class="text-white mt-2">
-                                    Job Opportunities
-                                </h5>
-                                <p>
-                                    Yes
-                                </p>
+                        <div class="d-flex align-items-center gap-3 mt-3">
+                            <div class="w-25">
+                                <img src="./images/fullstack.jpg" alt="full stack devlopment course in vrachha" />
+                            </div>
+                            <div class="our-course-name">
+                                <a href="./Fullstack_Development_course_surat.html">Full Stack Devlopment</a>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 ps-lg-5">
-                <div class="p-4 border rounded position-sticky" style="top: 100px;">
-                    <h4 class="mb-3">Our Course</h4>
-                    <hr />
-                    <div class="d-flex align-items-center gap-3">
-                        <div class="w-25">
-                            <img src="~/images/web-design-banner.jpg" alt="web design course in vrachha" />
-                        </div>
-                        <div class="our-course-name">
-                            <a href="~/home/web_design_course_surat">Web design</a>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center gap-3 mt-3">
-                        <div class="w-25">
-                            <img src="~/images/webdev.jpg" alt="web devlopment course in vrachha" />
-                        </div>
-                        <div class="our-course-name">
-                            <a href="~/home/Web_Development_course_surat">Web devlopment</a>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center gap-3 mt-3">
-                        <div class="w-25">
-                            <img src="~/images/fullstack.jpg" alt="full stack devlopment course in vrachha" />
-                        </div>
-                        <div class="our-course-name">
-                            <a href="~/home/Fullstack_Development_course_surat">Full Stack Devlopment</a>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center gap-3 mt-3">
-                        <div class="w-25">
-                            <img src="~/images/uiux.jpg" alt="uiux design course in vrachha" />
-                        </div>
-                        <div class="our-course-name">
-                            <a href="~/home/UiUx_design_course_surat">Ui/Ux design</a>
+                        <div class="d-flex align-items-center gap-3 mt-3">
+                            <div class="w-25">
+                                <img src="./images/uiux.jpg" alt="uiux design course in vrachha" />
+                            </div>
+                            <div class="our-course-name">
+                                <a href="./UiUx_design_course_surat.html">Ui/Ux design</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+    <div id="footer"></div>
+    <script>
+        fetch("footer.html")
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById("footer").innerHTML = data;
+            });
+    </script>
+</body>
 
-
-
+</html>

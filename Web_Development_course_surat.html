@@ -1,348 +1,647 @@
-﻿
-@{
-    ViewBag.Title = "Web_Development_course_surat";
-}
-<div class="sub-page-banner">
-    <div class="sub-page-banner-layer d-flex justify-content-center align-items-center">
-        <div class="text-center">
-            <p class="sub-page-title mb-3">
-                Web Development
-            </p>
-            <p class="sub-menu-link">
-                <a href="~/home/index">Home</a> <span class="mx-1">/</span> <a href="~/home/Web_Development_course_surat">Web Development</a>
-            </p>
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web development course surat</title>
+
+    <link href="./images/favicon.ico" rel="icon" />
+    <link href="./css/all.min.css" rel="stylesheet" />
+    <link href="./css/animate.min.css" rel="stylesheet" />
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="./css/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="./css/responsive.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+
+    <script src="./Scripts/bootstrap.bundle.min.js"></script>
+    <script src="./Scripts/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="./Scripts/owl.carousel.min.js"></script>
+
+    <!-- Magnific Popup JS -->
+
+    <script src="./Scripts/style.js"></script>
+</head>
+
+<body>
+    <div id="header"></div>
+    <script>
+        fetch("header.html")
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById("header").innerHTML = data;
+            });
+    </script>
+    <div class="sub-page-banner">
+        <div class="sub-page-banner-layer d-flex justify-content-center align-items-center">
+            <div class="text-center">
+                <p class="sub-page-title mb-3">
+                    Web Development
+                </p>
+                <p class="sub-menu-link">
+                    <a href="./index.html">Home</a> <span class="mx-1">/</span> <a
+                        href="./Web_Development_course_surat.html">Web Development</a>
+                </p>
+            </div>
         </div>
     </div>
-</div>
-<div class="spacer">
-    <div class="container">
-        <div class="row justify-content-between position-relative">
-            <div class="col-lg-8">
-                <div>
-                    <img src="~/images/webdev.jpg" />
-                </div>
-                <div>
-                    <div class="student-rating-star d-flex gap-1 mt-3 fs-6">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                    <h2 class="course-page-title mt-3" title="web Development course in surat">
-                        Web Development
-                    </h2>
-                    <hr />
+    <div class="spacer">
+        <div class="container">
+            <div class="row justify-content-between position-relative">
+                <div class="col-lg-8">
                     <div>
-                        <div class="nav course-details-nav" id="nav-tab" role="tablist">
-                            <button class="nav-link border-0 active me-3" id="nav-overview-tab" data-bs-toggle="tab" data-bs-target="#nav-overview" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Overview</button>
-                            <button class="nav-link border-0 me-3" id="nav-topic-tab" data-bs-toggle="tab" data-bs-target="#nav-topic" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Topics</button>
+                        <img src="./images/webdev.jpg" />
+                    </div>
+                    <div>
+                        <div class="student-rating-star d-flex gap-1 mt-3 fs-6">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
                         </div>
-
-                        <div class="tab-content mt-4">
-                            <div class="tab-pane fade show active" id="nav-overview" role="tabpanel" aria-labelledby="nav-overview-tab">
-                                <h4 class="mb-3">
-                                    What is Web Development?
-                                </h4>
-                                <p>
-                                    Web development involves the creation and maintenance of websites and web applications. It encompasses both front-end (client-side) and back-end (server-side) development. A web developer is responsible for ensuring that a website is functional, user-friendly, fast, and optimized for various devices and browsers.
-                                </p>
-                                <h5 class="mb-3">
-                                    Why Choose Web Development as a Career?
-                                </h5>
-                                <p>
-                                    In today’s digital era, having a strong online presence is crucial for businesses, which has increased the demand for skilled web developers. Web development is a dynamic field with numerous career opportunities, and the demand is continuously growing due to the expansion of e-commerce, digital services, and tech startups.
-                                </p>
-                                <h5 class="mb-3">Here’s why you should consider a career in web development:</h5>
-                                <p>
-                                    <strong>High Demand:</strong> The digital world is expanding, and every business needs a website, leading to continuous demand for skilled web developers.
-                                </p>
-                                <p>
-                                    <strong>Attractive Salaries:</strong>Web developers are among the highest-paid professionals in the tech industry. As you gain experience, your earning potential significantly increases.
-                                </p>
-                                <p>
-                                    <strong>Job Flexibility:</strong> You can work full-time for a company or freelance as a web developer, offering you flexibility and independence.
-                                </p>
-                                <p>
-                                    <strong>Constant Learning & Growth:</strong>Web development is a field where you constantly learn new skills and stay updated with the latest technologies.
-                                </p>
-                                <p>
-                                    <strong>Diverse Career Paths:</strong>You can specialize in various aspects of web development, such as front-end, back-end, or full-stack development, and work across different industries.
-                                </p>
-                                <p>
-                                    At<strong>Pari Design & Multimedia Institute,</strong>  we offer a comprehensive Web Development Course that covers both front-end and back-end technologies, ensuring you become a full-stack web developer. Our curriculum is designed by industry experts to meet current market demands and make you job-ready.
-                                </p>
-                                <p></p>
-                                <h5 class="mb-3">Benefits of Learning Web Development at <strong>Pari Design & Multimedia Institute</strong> </h5>
-                                <p class="mb-3">
-                                <p>
-                                    <strong>Expert-Led Classes:</strong> Our trainers have years of experience in the industry and will guide you through every step of web development, from the basics to advanced techniques.
-                                </p>
-                                <p>
-                                    <strong>Practical Approach:</strong>Our course focuses on hands-on learning, with real-world projects that prepare you for the challenges of the industry.
-
-                                </p>
-                                <p>
-                                    <strong>State-of-the-Art Infrastructure:</strong>We provide access to the latest tools and technologies in our labs, giving you the best learning environment.
-                                </p>
-                                <p>
-                                    <strong>Flexible Learning:</strong>We offer various learning formats, including full-time, part-time, and online classes to suit your schedule.
-                                    Job Support: Our dedicated placement team will help you prepare for job interviews and connect you with potential employers.
-                                </p>
-                                <p></p>
-                                <ul>
-                                    <li>HTML5 & CSS3</li>
-                                    <li>JavaScript & jQuery</li>
-                                    <li>Responsive Web Design (Bootstrap, Flexbox)</li>
-                                    <li>Version Control (Git & GitHub)</li>
-                                    <li>JavaScript Frameworks (React.js, Angular, Vue.js)</li>
-                                    <li>Server-Side Programming (Node.js, PHP, Python, ASP.NET)</li>
-                                    <li>Database Management (MySQL, MongoDB)</li>
-                                    <li>API Integration</li>
-                                    <li>Web Hosting & Deployment</li>
-                                    <li>Security & Optimization</li>
-                                </ul>
+                        <h2 class="course-page-title mt-3" title="web Development course in surat">
+                            Web Development
+                        </h2>
+                        <hr />
+                        <div>
+                            <div class="nav course-details-nav" id="nav-tab" role="tablist">
+                                <button class="nav-link border-0 active me-3" id="nav-overview-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-overview" type="button" role="tab" aria-controls="nav-home"
+                                    aria-selected="true">Overview</button>
+                                <button class="nav-link border-0 me-3" id="nav-topic-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-topic" type="button" role="tab" aria-controls="nav-profile"
+                                    aria-selected="false">Topics</button>
                             </div>
-                            <div class="tab-pane fade" id="nav-topic" role="tabpanel" aria-labelledby="nav-topic-tab">
-                                <div class="accordion accordion-flush" id="accordionFlushExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-CPROG" aria-expanded="false" aria-controls="flush-CPROG">
-                                                C PROG , C++ CONCEPT
-                                            </button>
-                                        </h2>
-                                        <div id="flush-CPROG" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Basic Programming Concept</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Control Statement</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Loop</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Array</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> String</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> User Define Function</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Concept Of OOP</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Inheritance</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Polymorphism</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Exception Handling</li>
-                                                </ul>
+
+                            <div class="tab-content mt-4">
+                                <div class="tab-pane fade show active" id="nav-overview" role="tabpanel"
+                                    aria-labelledby="nav-overview-tab">
+                                    <h4 class="mb-3">
+                                        What is Web Development?
+                                    </h4>
+                                    <p>
+                                        Web development involves the creation and maintenance of websites and web
+                                        applications. It encompasses both front-end (client-side) and back-end
+                                        (server-side) development. A web developer is responsible for ensuring that a
+                                        website is functional, user-friendly, fast, and optimized for various devices
+                                        and browsers.
+                                    </p>
+                                    <h5 class="mb-3">
+                                        Why Choose Web Development as a Career?
+                                    </h5>
+                                    <p>
+                                        In today’s digital era, having a strong online presence is crucial for
+                                        businesses, which has increased the demand for skilled web developers. Web
+                                        development is a dynamic field with numerous career opportunities, and the
+                                        demand is continuously growing due to the expansion of e-commerce, digital
+                                        services, and tech startups.
+                                    </p>
+                                    <h5 class="mb-3">Here’s why you should consider a career in web development:</h5>
+                                    <p>
+                                        <strong>High Demand:</strong> The digital world is expanding, and every business
+                                        needs a website, leading to continuous demand for skilled web developers.
+                                    </p>
+                                    <p>
+                                        <strong>Attractive Salaries:</strong>Web developers are among the highest-paid
+                                        professionals in the tech industry. As you gain experience, your earning
+                                        potential significantly increases.
+                                    </p>
+                                    <p>
+                                        <strong>Job Flexibility:</strong> You can work full-time for a company or
+                                        freelance as a web developer, offering you flexibility and independence.
+                                    </p>
+                                    <p>
+                                        <strong>Constant Learning & Growth:</strong>Web development is a field where you
+                                        constantly learn new skills and stay updated with the latest technologies.
+                                    </p>
+                                    <p>
+                                        <strong>Diverse Career Paths:</strong>You can specialize in various aspects of
+                                        web development, such as front-end, back-end, or full-stack development, and
+                                        work across different industries.
+                                    </p>
+                                    <p>
+                                        At<strong>Pari Design & Multimedia Institute,</strong> we offer a comprehensive
+                                        Web Development Course that covers both front-end and back-end technologies,
+                                        ensuring you become a full-stack web developer. Our curriculum is designed by
+                                        industry experts to meet current market demands and make you job-ready.
+                                    </p>
+                                    <p></p>
+                                    <h5 class="mb-3">Benefits of Learning Web Development at <strong>Pari Design &
+                                            Multimedia Institute</strong> </h5>
+                                    <p class="mb-3">
+                                    <p>
+                                        <strong>Expert-Led Classes:</strong> Our trainers have years of experience in
+                                        the industry and will guide you through every step of web development, from the
+                                        basics to advanced techniques.
+                                    </p>
+                                    <p>
+                                        <strong>Practical Approach:</strong>Our course focuses on hands-on learning,
+                                        with real-world projects that prepare you for the challenges of the industry.
+
+                                    </p>
+                                    <p>
+                                        <strong>State-of-the-Art Infrastructure:</strong>We provide access to the latest
+                                        tools and technologies in our labs, giving you the best learning environment.
+                                    </p>
+                                    <p>
+                                        <strong>Flexible Learning:</strong>We offer various learning formats, including
+                                        full-time, part-time, and online classes to suit your schedule.
+                                        Job Support: Our dedicated placement team will help you prepare for job
+                                        interviews and connect you with potential employers.
+                                    </p>
+                                    <p></p>
+                                    <ul>
+                                        <li>HTML5 & CSS3</li>
+                                        <li>JavaScript & jQuery</li>
+                                        <li>Responsive Web Design (Bootstrap, Flexbox)</li>
+                                        <li>Version Control (Git & GitHub)</li>
+                                        <li>JavaScript Frameworks (React.js, Angular, Vue.js)</li>
+                                        <li>Server-Side Programming (Node.js, PHP, Python, ASP.NET)</li>
+                                        <li>Database Management (MySQL, MongoDB)</li>
+                                        <li>API Integration</li>
+                                        <li>Web Hosting & Deployment</li>
+                                        <li>Security & Optimization</li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade" id="nav-topic" role="tabpanel"
+                                    aria-labelledby="nav-topic-tab">
+                                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-CPROG"
+                                                    aria-expanded="false" aria-controls="flush-CPROG">
+                                                    C PROG , C++ CONCEPT
+                                                </button>
+                                            </h2>
+                                            <div id="flush-CPROG" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Basic
+                                                            Programming Concept</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Control
+                                                            Statement</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Loop</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Array
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> String
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> User
+                                                            Define Function</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Concept
+                                                            Of OOP</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Inheritance</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Polymorphism</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Exception
+                                                            Handling</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-HTML" aria-expanded="false" aria-controls="flush-HTML">
-                                                HTML
-                                            </button>
-                                        </h2>
-                                        <div id="flush-HTML" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Introduction to HTML</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Formatting Tags</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Form Elements</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Table Layout</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> HTML Styles</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> HTML Class </li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> HTML Lists </li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> HTML Responsive</li>                                  </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-HTML"
+                                                    aria-expanded="false" aria-controls="flush-HTML">
+                                                    HTML
+                                                </button>
+                                            </h2>
+                                            <div id="flush-HTML" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Introduction to HTML</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Formatting Tags</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Form
+                                                            Elements</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Table
+                                                            Layout</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> HTML
+                                                            Styles</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> HTML
+                                                            Class </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> HTML
+                                                            Lists </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> HTML
+                                                            Responsive</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-adobexd" aria-expanded="false" aria-controls="flush-adobexd">
-                                               CSS
-                                            </button>
-                                        </h2>
-                                        <div id="flush-adobexd" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Introduction to CSS </li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Syntax</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Transform Property </li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Font CSS </li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Border CSS</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Animation Property </li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Filter Property</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-adobexd"
+                                                    aria-expanded="false" aria-controls="flush-adobexd">
+                                                    CSS
+                                                </button>
+                                            </h2>
+                                            <div id="flush-adobexd" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Introduction to CSS </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Syntax
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Transform
+                                                            Property </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Font CSS
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Border
+                                                            CSS</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Animation
+                                                            Property </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Filter
+                                                            Property</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-Responsive" aria-expanded="false" aria-controls="flush-Responsive">
-                                               Responsive Layout
-                                            </button>
-                                        </h2>
-                                        <div id="flush-Responsive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Introduction to Media Query</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Introduction to Bootstrap</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Bootstrap Setup</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Bootstrap Components</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Project Design Using Bootstrap</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-Responsive"
+                                                    aria-expanded="false" aria-controls="flush-Responsive">
+                                                    Responsive Layout
+                                                </button>
+                                            </h2>
+                                            <div id="flush-Responsive" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Introduction to Media Query</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Introduction to Bootstrap</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Bootstrap
+                                                            Setup</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Bootstrap
+                                                            Components</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Project
+                                                            Design Using Bootstrap</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-JavaScript" aria-expanded="false" aria-controls="flush-JavaScript">
-                                                JavaScript / JQuery
-                                            </button>
-                                        </h2>
-                                        <div id="flush-JavaScript" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Introduction to JavaScript</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Operators</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Contional statements</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Loops</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Class, Tag Selector</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Slider </li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Validation </li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> JQuery Selector </li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> JQuery Events </li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Traversing </li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> JQuery Selectors</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> JQuery Actions</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> JQuery Custom Functionality</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> JQuery Libraries</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> JQuery Validation</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> JQuery Slideshow</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> JQuery Dropdown</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> JS Functions</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> JQuery UI</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Working with jQueryUI</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> JQuery Accordions</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> JQuery Tabs</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> JQuery Tooltips</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> JQuery Autocomplete</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-JavaScript"
+                                                    aria-expanded="false" aria-controls="flush-JavaScript">
+                                                    JavaScript / JQuery
+                                                </button>
+                                            </h2>
+                                            <div id="flush-JavaScript" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Introduction to JavaScript</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Operators
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Contional
+                                                            statements</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Loops
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Class,
+                                                            Tag Selector</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Slider
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Validation </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> JQuery
+                                                            Selector </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> JQuery
+                                                            Events </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Traversing </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> JQuery
+                                                            Selectors</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> JQuery
+                                                            Actions</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> JQuery
+                                                            Custom Functionality</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> JQuery
+                                                            Libraries</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> JQuery
+                                                            Validation</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> JQuery
+                                                            Slideshow</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> JQuery
+                                                            Dropdown</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> JS
+                                                            Functions</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> JQuery UI
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Working
+                                                            with jQueryUI</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> JQuery
+                                                            Accordions</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> JQuery
+                                                            Tabs</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> JQuery
+                                                            Tooltips</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> JQuery
+                                                            Autocomplete</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-PHP" aria-expanded="false" aria-controls="flush-PHP">
-                                                PHP
-                                            </button>
-                                        </h2>
-                                        <div id="flush-PHP" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Introduction to PHP</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> WAMP, LAMP & XAMP</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> PHP & MySQL Installation</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> PHP Programming Basics</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Object-oriented Programming In PHP</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Files And Directories</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Important Classes</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> PHP & File Uploads</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Pagination</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> PHP Email Sending</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> API Integration</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-PHP"
+                                                    aria-expanded="false" aria-controls="flush-PHP">
+                                                    PHP
+                                                </button>
+                                            </h2>
+                                            <div id="flush-PHP" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Introduction to PHP</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> WAMP,
+                                                            LAMP & XAMP</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> PHP &
+                                                            MySQL Installation</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> PHP
+                                                            Programming Basics</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Object-oriented Programming In PHP</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Files And
+                                                            Directories</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Important
+                                                            Classes</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> PHP &
+                                                            File Uploads</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Pagination</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> PHP Email
+                                                            Sending</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> API
+                                                            Integration</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-MySQL" aria-expanded="false" aria-controls="flush-MySQL">
-                                                MySQL
-                                            </button>
-                                        </h2>
-                                        <div id="flush-MySQL" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Basics</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Directory Structure</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Creating Databases</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Creating Tables,Fields And Indexes</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Writing SQL Queries</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Subqueries, Joins, And Unions</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Insert,update ,delete Records</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Using Built-in Functions</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> MySQL Table Types And Transactions</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-MySQL"
+                                                    aria-expanded="false" aria-controls="flush-MySQL">
+                                                    MySQL
+                                                </button>
+                                            </h2>
+                                            <div id="flush-MySQL" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Basics
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Directory
+                                                            Structure</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Creating
+                                                            Databases</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Creating
+                                                            Tables,Fields And Indexes</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Writing
+                                                            SQL Queries</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Subqueries, Joins, And Unions</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Insert,update ,delete Records</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Using
+                                                            Built-in Functions</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> MySQL
+                                                            Table Types And Transactions</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-Ajax" aria-expanded="false" aria-controls="flush-Ajax">
-                                                Ajax
-                                            </button>
-                                        </h2>
-                                        <div id="flush-Ajax" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Introduction to AJAX</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> AJAX - Create an XMLHttpRequest Object</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> AJAX - Send a Request To a Server</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> AJAX - Server Response</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> AJAX - Events</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> AJAX PHP Example</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> AJAX Database</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> HTML in AJAX</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Ajax Applications</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-Ajax"
+                                                    aria-expanded="false" aria-controls="flush-Ajax">
+                                                    Ajax
+                                                </button>
+                                            </h2>
+                                            <div id="flush-Ajax" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Introduction to AJAX</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> AJAX -
+                                                            Create an XMLHttpRequest Object</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> AJAX -
+                                                            Send a Request To a Server</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> AJAX -
+                                                            Server Response</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> AJAX -
+                                                            Events</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> AJAX PHP
+                                                            Example</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> AJAX
+                                                            Database</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> HTML in
+                                                            AJAX</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Ajax
+                                                            Applications</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-Frameworks" aria-expanded="false" aria-controls="flush-Frameworks">
-                                                PHP Frameworks
-                                            </button>
-                                        </h2>
-                                        <div id="flush-Frameworks" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> CodeIgniter</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Laravel</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Wordpress</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-Frameworks"
+                                                    aria-expanded="false" aria-controls="flush-Frameworks">
+                                                    PHP Frameworks
+                                                </button>
+                                            </h2>
+                                            <div id="flush-Frameworks" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            CodeIgniter</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Laravel
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Wordpress
+                                                        </li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-Live-Project" aria-expanded="false" aria-controls="flush-Live-Project">
-                                                Live Project
-                                            </button>
-                                        </h2>
-                                        <div id="flush-Live-Project" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> SOCIAL MEDIA SITES</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> MANAGEMENT SITES</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> TICKET BOOKING SITES</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> E-COMMERCE</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> WEB PORTAL</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> CONTENT MANAGEMENT</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-Live-Project"
+                                                    aria-expanded="false" aria-controls="flush-Live-Project">
+                                                    Live Project
+                                                </button>
+                                            </h2>
+                                            <div id="flush-Live-Project" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> SOCIAL
+                                                            MEDIA SITES</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            MANAGEMENT SITES</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> TICKET
+                                                            BOOKING SITES</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            E-COMMERCE</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> WEB
+                                                            PORTAL</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> CONTENT
+                                                            MANAGEMENT</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-Freelancing" aria-expanded="false" aria-controls="flush-Freelancing">
-                                                Freelancing
-                                            </button>
-                                        </h2>
-                                        <div id="flush-Freelancing" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> What's Freelancing & How does it work?</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Different websites for Freelancing</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Freelancer, Upwork and Fiverr Profile setup</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Top Skills in demand for freelancing</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Project Bid Technique</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Client Communication</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Client retention and ways to get 5 star reviews</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-Freelancing"
+                                                    aria-expanded="false" aria-controls="flush-Freelancing">
+                                                    Freelancing
+                                                </button>
+                                            </h2>
+                                            <div id="flush-Freelancing" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> What's
+                                                            Freelancing & How does it work?</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Different
+                                                            websites for Freelancing</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Freelancer, Upwork and Fiverr Profile setup</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Top
+                                                            Skills in demand for freelancing</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Project
+                                                            Bid Technique</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Client
+                                                            Communication</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Client
+                                                            retention and ways to get 5 star reviews</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -350,88 +649,98 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row mt-4">
+                        <div class="col-lg-4 mb-lg-0 mb-3 px-lg-2 p-0">
+                            <div class="course-categories-box d-flex align-items-center justify-content-center">
+                                <div class="text-center">
+                                    <p><i class="fa-solid fa-book fs-1"></i></p>
+                                    <h5 class="text-white mt-2">
+                                        Course Duration
+                                    </h5>
+                                    <p>
+                                        12 Month
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-lg-0 mb-3 px-lg-2 p-0">
+                            <div
+                                class="course-categories-box course-categories-box1 d-flex align-items-center justify-content-center">
+                                <div class="text-center">
+                                    <p><i class="fa-solid fa-clock fs-1"></i></p>
+                                    <h5 class="text-white mt-2">
+                                        Lectures Duration
+                                    </h5>
+                                    <p>
+                                        2 + 2 Hourse / Day
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-lg-0 mb-3 px-lg-2 p-0">
+                            <div class="course-categories-box d-flex align-items-center justify-content-center">
+                                <div class="text-center">
+                                    <p><i class="fa-solid fa-graduation-cap fs-1"></i></p>
+                                    <h5 class="text-white mt-2">
+                                        Job Opportunities
+                                    </h5>
+                                    <p>
+                                        Yes
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="row mt-4">
-                    <div class="col-lg-4 mb-lg-0 mb-3 px-lg-2 p-0">
-                        <div class="course-categories-box d-flex align-items-center justify-content-center">
-                            <div class="text-center">
-                                <p><i class="fa-solid fa-book fs-1"></i></p>
-                                <h5 class="text-white mt-2">
-                                    Course Duration
-                                </h5>
-                                <p>
-                                    12 Month
-                                </p>
+                <div class="col-lg-4 ps-lg-5">
+                    <div class="p-4 border rounded position-sticky" style="top: 100px;">
+                        <h4 class="mb-3">Our Course</h4>
+                        <hr />
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="w-25">
+                                <img src="./images/web-design-banner.jpg" alt="web design course in vrachha" />
+                            </div>
+                            <div class="our-course-name">
+                                <a href="./web_design_course_surat.html">Web design</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 mb-lg-0 mb-3 px-lg-2 p-0">
-                        <div class="course-categories-box course-categories-box1 d-flex align-items-center justify-content-center">
-                            <div class="text-center">
-                                <p><i class="fa-solid fa-clock fs-1"></i></p>
-                                <h5 class="text-white mt-2">
-                                    Lectures Duration
-                                </h5>
-                                <p>
-                                    2 + 2 Hourse / Day
-                                </p>
+                        <div class="d-flex align-items-center gap-3 mt-3">
+                            <div class="w-25">
+                                <img src="./images/webdev.jpg" alt="web devlopment course in vrachha" />
+                            </div>
+                            <div class="our-course-name">
+                                <a href="./Web_Development_course_surat.html">Web devlopment</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 mb-lg-0 mb-3 px-lg-2 p-0">
-                        <div class="course-categories-box d-flex align-items-center justify-content-center">
-                            <div class="text-center">
-                                <p><i class="fa-solid fa-graduation-cap fs-1"></i></p>
-                                <h5 class="text-white mt-2">
-                                    Job Opportunities
-                                </h5>
-                                <p>
-                                    Yes
-                                </p>
+                        <div class="d-flex align-items-center gap-3 mt-3">
+                            <div class="w-25">
+                                <img src="./images/fullstack.jpg" alt="full stack devlopment course in vrachha" />
+                            </div>
+                            <div class="our-course-name">
+                                <a href="./Fullstack_Development_course_surat.html">Full Stack Devlopment</a>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 ps-lg-5">
-                <div class="p-4 border rounded position-sticky" style="top: 100px;">
-                    <h4 class="mb-3">Our Course</h4>
-                    <hr />
-                    <div class="d-flex align-items-center gap-3">
-                        <div class="w-25">
-                            <img src="~/images/web-design-banner.jpg" alt="web design course in vrachha" />
-                        </div>
-                        <div class="our-course-name">
-                            <a href="~/home/web_design_course_surat">Web design</a>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center gap-3 mt-3">
-                        <div class="w-25">
-                            <img src="~/images/webdev.jpg" alt="web devlopment course in vrachha" />
-                        </div>
-                        <div class="our-course-name">
-                            <a href="~/home/Web_Development_course_surat">Web devlopment</a>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center gap-3 mt-3">
-                        <div class="w-25">
-                            <img src="~/images/fullstack.jpg" alt="full stack devlopment course in vrachha" />
-                        </div>
-                        <div class="our-course-name">
-                            <a href="~/home/Fullstack_Development_course_surat">Full Stack Devlopment</a>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center gap-3 mt-3">
-                        <div class="w-25">
-                            <img src="~/images/uiux.jpg" alt="uiux design course in vrachha" />
-                        </div>
-                        <div class="our-course-name">
-                            <a href="~/home/UiUx_design_course_surat">Ui/Ux design</a>
+                        <div class="d-flex align-items-center gap-3 mt-3">
+                            <div class="w-25">
+                                <img src="./images/uiux.jpg" alt="uiux design course in vrachha" />
+                            </div>
+                            <div class="our-course-name">
+                                <a href="./UiUx_design_course_surat.html">Ui/Ux design</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+    <div id="footer"></div>
+    <script>
+        fetch("footer.html")
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById("footer").innerHTML = data;
+            });
+    </script>
+</body>
 
+</html>

@@ -1,354 +1,674 @@
-﻿
-@{
-    ViewBag.Title = "web_design_course_surat";
-}
-<div class="sub-page-banner">
-    <div class="sub-page-banner-layer d-flex justify-content-center align-items-center">
-        <div class="text-center">
-            <p class="sub-page-title mb-3">
-                Web design
-            </p>
-            <p class="sub-menu-link">
-                <a href="~/home/index">Home</a> <span class="mx-1">/</span> <a href="~/home/web_design_course_surat">Web design</a>
-            </p>
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web design course surat</title>
+
+    <link href="./images/favicon.ico" rel="icon" />
+    <link href="./css/all.min.css" rel="stylesheet" />
+    <link href="./css/animate.min.css" rel="stylesheet" />
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="./css/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="./css/responsive.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+
+    <script src="./Scripts/bootstrap.bundle.min.js"></script>
+    <script src="./Scripts/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="./Scripts/owl.carousel.min.js"></script>
+
+    <!-- Magnific Popup JS -->
+
+    <script src="./Scripts/style.js"></script>
+</head>
+
+<body>
+    <div id="header"></div>
+    <script>
+        fetch("header.html")
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById("header").innerHTML = data;
+            });
+    </script>
+    <div class="sub-page-banner">
+        <div class="sub-page-banner-layer d-flex justify-content-center align-items-center">
+            <div class="text-center">
+                <p class="sub-page-title mb-3">
+                    Web design
+                </p>
+                <p class="sub-menu-link">
+                    <a href="/index.html">Home</a> <span class="mx-1">/</span> <a
+                        href="/web_design_course_surat.html">Web design</a>
+                </p>
+            </div>
         </div>
     </div>
-</div>
 
-<div class="spacer">
-    <div class="container">
-        <div class="row justify-content-between position-relative">
-            <div class="col-lg-8">
-                <div>
-                    <img src="~/images/web-design-banner.jpg" />
-                </div>
-                <div>
-                    <div class="student-rating-star d-flex gap-1 mt-3 fs-6">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                    <h2 class="course-page-title mt-3" title="web design course in surat">
-                        Web Design Course
-                    </h2>
-                    <hr />
+    <div class="spacer">
+        <div class="container">
+            <div class="row justify-content-between position-relative">
+                <div class="col-lg-8">
                     <div>
-                        <div class="nav course-details-nav" id="nav-tab" role="tablist">
-                            <button class="nav-link border-0 active me-3" id="nav-overview-tab" data-bs-toggle="tab" data-bs-target="#nav-overview" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Overview</button>
-                            <button class="nav-link border-0 me-3" id="nav-topic-tab" data-bs-toggle="tab" data-bs-target="#nav-topic" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Topics</button>
+                        <img src="./images/web-design-banner.jpg" />
+                    </div>
+                    <div>
+                        <div class="student-rating-star d-flex gap-1 mt-3 fs-6">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
                         </div>
-
-                        <div class="tab-content mt-4">
-                            <div class="tab-pane fade show active" id="nav-overview" role="tabpanel" aria-labelledby="nav-overview-tab">
-                                <h4 class="mb-3">What is Web Design? </h4>
-                                <p>
-                                    Web design involves crafting a visually appealing and functional layout for websites displayed on the internet. It’s the blend of creativity and technical skills that results in a seamless and interactive user experience on websites.
-                                </p>
-                                <p>
-                                    At <strong>Pari Design And Multimedia Institute,</strong> our Web Design Course in Surat prepares you for a thriving career in one of the most in-demand fields in IT for 2023 and beyond.
-                                </p>
-                                <h5 class="mb-3">Why Choose a Web Design Course?</h5>
-                                <p>
-                                    Web design is more than just arranging visuals on a page. It involves structuring website layouts, choosing appropriate colors and fonts, and designing intuitive interfaces that cater to user needs. With the rise of mobile browsing and responsive web design, today’s web design professionals need to be adaptive and future-ready.
-                                </p>
-                                <h5 class="mb-3">Website design encompasses:</h5>
-                                <ul>
-                                    <li>
-                                        Website structure
-                                    </li>
-                                    <li>
-                                        User interface (UI) design
-                                    </li>
-                                    <li>
-                                        Color schemes and fonts
-                                    </li>
-                                    <li>
-                                        Iconography and imagery
-                                    </li>
-                                </ul>
-                                <p></p>
-                                <h5 class="mb-3">Career Growth in Web Design</h5>
-                                <p>
-                                    Initially, web design was focused solely on desktop browsers. However, with the rapid expansion of mobile devices and tablets, designing for multiple platforms is now essential. The field has evolved, offering diverse career paths and abundant opportunities.
-                                </p>
-                                <p>
-                                    In a world dominated by digital experiences, every business requires a creative and functional website, and skilled web designers are in high demand. This demand is further driven by initiatives like Digital India and the startup boom, making web design one of the fastest-growing sectors in today’s economy.
-                                </p>
-                                <h5 class="mb-3">Where Can You Learn Web Design in Surat?</h5>
-                                <p>If you’re looking to master web design, <strong>Pari Design And Multimedia Institute stands as a leading institute in Surat</strong>. Our expert-led course ensures you gain in-depth knowledge and practical skills, setting you up for a successful career in this dynamic field.</p>
-                                <h5 class="mb-3">Live Project Training in Surat</h5>
-                                <p class="mb-3">
-                                    At <strong>Pari Design & Multimedia Institute,</strong> we emphasize practical learning. Our web design course includes live project training where students work on real-world assignments. This hands-on approach ensures that you not only learn theory but also gain the skills necessary to succeed in a competitive job market.
-                                </p>
-                                <h5 class="mb-3">Job Assistance After Course Completion</h5>
-                                <p>
-                                    We at <strong>Pari Design & Multimedia Institute</strong> provide 100% job placement support after course completion. Our dedicated team assists you with resume building, interview preparation, and career counseling to ensure you secure a job at leading companies in Surat and beyond.
-                                </p>
-                                <h5 class="mb-3">Learn Web Design at Pari Design & Multimedia Institute</h5>
-                                <p>
-                                    With our industry-oriented curriculum, live projects, and expert faculty, <strong>Pari Design & Multimedia Institute offers the best web design course in Surat</strong>. Whether you’re starting from scratch or upgrading your skills, we have the perfect platform to launch your career in web design.
-                                </p>
+                        <h2 class="course-page-title mt-3" title="web design course in surat">
+                            Web Design Course
+                        </h2>
+                        <hr />
+                        <div>
+                            <div class="nav course-details-nav" id="nav-tab" role="tablist">
+                                <button class="nav-link border-0 active me-3" id="nav-overview-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-overview" type="button" role="tab" aria-controls="nav-home"
+                                    aria-selected="true">Overview</button>
+                                <button class="nav-link border-0 me-3" id="nav-topic-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-topic" type="button" role="tab" aria-controls="nav-profile"
+                                    aria-selected="false">Topics</button>
                             </div>
 
-                            <div class="tab-pane fade" id="nav-topic" role="tabpanel" aria-labelledby="nav-topic-tab">
-                                <div class="accordion accordion-flush" id="accordionFlushExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                                Photoshop
-                                            </button>
-                                        </h2>
-                                        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Introduction to Photoshop</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Color Correction</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Image Editing</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Typography</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Character Design</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Mockup Design</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Marketing post Design</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Product and Website Banner Design</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Web Layout Design</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-Illustrator" aria-expanded="false" aria-controls="flush-Illustrator">
-                                                Illustrator
-                                            </button>
-                                        </h2>
-                                        <div id="flush-Illustrator" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i>Introduction to Illustrator</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i>Icon Design</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i>3D Design</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i>Perspective 3D</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i>2D / 3D Infographic Elements</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i>Isometric Elements</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i>Logo Design</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-Figma" aria-expanded="false" aria-controls="flush-Figma">
-                                                Figma
-                                            </button>
-                                        </h2>
-                                        <div id="flush-Figma" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Introduction to Figma Design</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Type of Wireframing</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Consistancy of Color, Fonts, Grid, Color &amp; Icon</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Assets and File Manage</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Explore Text &amp; Styles</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Install Plugins</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Website Interactions &amp; Prototyping</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Global Design System for your Brand</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-Html" aria-expanded="false" aria-controls="flush-Html">
-                                                Getting Familiar with HTML
-                                            </button>
-                                        </h2>
-                                        <div id="flush-Html" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Introduction to HTML/HTML5</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Formatting Tags</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Form Elements</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Table Layout&nbsp;</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> HTML Lists</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> HTML&nbsp;Media Tags</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-css" aria-expanded="false" aria-controls="flush-css">
-                                                Make IT Beautiful with CSS / CSS3
-                                            </button>
-                                        </h2>
-                                        <div id="flush-css" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Introduction to CSS&nbsp;</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Types Of CSS &amp; It's Syntax&nbsp;</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Working with Class &amp; ID</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Font CSS&nbsp;</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Border CSS&nbsp;</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Background CSS</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Implementation of Icon Library</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Transform Property</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> CSS3 Animation Property&nbsp;</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> CSS3 Filter Property</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Pseudo Classes &amp; Elements</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Form Design</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Product List &amp; Detail View</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Website Slider</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Website Layout Design Using CSS/CSS3</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-Bootstrap" aria-expanded="false" aria-controls="flush-Bootstrap">
-                                                Bootstrap Responsive Layout
-                                            </button>
-                                        </h2>
-                                        <div id="flush-Bootstrap" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Introduction to Media Query</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Responsive Product View</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Responsive Navigation Menu</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Introduction to&nbsp;Bootstrap</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Bootstrap File Implementation</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Bootstrap Grid System</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Bootstrap Components</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Bootstrap Utilities</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Project Work : Responsive Website Design</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-Tailwind-css" aria-expanded="false" aria-controls="flush-Tailwind-css">
-                                                Tailwind CSS
-                                            </button>
-                                        </h2>
-                                        <div id="flush-Tailwind-css" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Introduction &amp; Setup of Tailwind CSS</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Grid System</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Containers</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Components of Tailwind CSS</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Customization</li>
-                                                    <li class="pb-2">
-                                                        <i class="fa-solid fa-laptop-code me-1 fs-6"></i> Project Work : Responsive Designing with Tailwind CSS
+                            <div class="tab-content mt-4">
+                                <div class="tab-pane fade show active" id="nav-overview" role="tabpanel"
+                                    aria-labelledby="nav-overview-tab">
+                                    <h4 class="mb-3">What is Web Design? </h4>
+                                    <p>
+                                        Web design involves crafting a visually appealing and functional layout for
+                                        websites displayed on the internet. It’s the blend of creativity and technical
+                                        skills that results in a seamless and interactive user experience on websites.
+                                    </p>
+                                    <p>
+                                        At <strong>Pari Design And Multimedia Institute,</strong> our Web Design Course
+                                        in Surat prepares you for a thriving career in one of the most in-demand fields
+                                        in IT for 2023 and beyond.
+                                    </p>
+                                    <h5 class="mb-3">Why Choose a Web Design Course?</h5>
+                                    <p>
+                                        Web design is more than just arranging visuals on a page. It involves
+                                        structuring website layouts, choosing appropriate colors and fonts, and
+                                        designing intuitive interfaces that cater to user needs. With the rise of mobile
+                                        browsing and responsive web design, today’s web design professionals need to be
+                                        adaptive and future-ready.
+                                    </p>
+                                    <h5 class="mb-3">Website design encompasses:</h5>
+                                    <ul>
+                                        <li>
+                                            Website structure
+                                        </li>
+                                        <li>
+                                            User interface (UI) design
+                                        </li>
+                                        <li>
+                                            Color schemes and fonts
+                                        </li>
+                                        <li>
+                                            Iconography and imagery
+                                        </li>
+                                    </ul>
+                                    <p></p>
+                                    <h5 class="mb-3">Career Growth in Web Design</h5>
+                                    <p>
+                                        Initially, web design was focused solely on desktop browsers. However, with the
+                                        rapid expansion of mobile devices and tablets, designing for multiple platforms
+                                        is now essential. The field has evolved, offering diverse career paths and
+                                        abundant opportunities.
+                                    </p>
+                                    <p>
+                                        In a world dominated by digital experiences, every business requires a creative
+                                        and functional website, and skilled web designers are in high demand. This
+                                        demand is further driven by initiatives like Digital India and the startup boom,
+                                        making web design one of the fastest-growing sectors in today’s economy.
+                                    </p>
+                                    <h5 class="mb-3">Where Can You Learn Web Design in Surat?</h5>
+                                    <p>If you’re looking to master web design, <strong>Pari Design And Multimedia
+                                            Institute stands as a leading institute in Surat</strong>. Our expert-led
+                                        course ensures you gain in-depth knowledge and practical skills, setting you up
+                                        for a successful career in this dynamic field.</p>
+                                    <h5 class="mb-3">Live Project Training in Surat</h5>
+                                    <p class="mb-3">
+                                        At <strong>Pari Design & Multimedia Institute,</strong> we emphasize practical
+                                        learning. Our web design course includes live project training where students
+                                        work on real-world assignments. This hands-on approach ensures that you not only
+                                        learn theory but also gain the skills necessary to succeed in a competitive job
+                                        market.
+                                    </p>
+                                    <h5 class="mb-3">Job Assistance After Course Completion</h5>
+                                    <p>
+                                        We at <strong>Pari Design & Multimedia Institute</strong> provide 100% job
+                                        placement support after course completion. Our dedicated team assists you with
+                                        resume building, interview preparation, and career counseling to ensure you
+                                        secure a job at leading companies in Surat and beyond.
+                                    </p>
+                                    <h5 class="mb-3">Learn Web Design at Pari Design & Multimedia Institute</h5>
+                                    <p>
+                                        With our industry-oriented curriculum, live projects, and expert faculty,
+                                        <strong>Pari Design & Multimedia Institute offers the best web design course in
+                                            Surat</strong>. Whether you’re starting from scratch or upgrading your
+                                        skills, we have the perfect platform to launch your career in web design.
+                                    </p>
+                                </div>
 
-                                                        &nbsp;
+                                <div class="tab-pane fade" id="nav-topic" role="tabpanel"
+                                    aria-labelledby="nav-topic-tab">
+                                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                                    aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                    Photoshop
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Introduction to Photoshop</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Color
+                                                            Correction</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Image
+                                                            Editing</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Typography</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Character
+                                                            Design</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Mockup
+                                                            Design</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Marketing
+                                                            post Design</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Product
+                                                            and Website Banner Design</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Web
+                                                            Layout Design</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-Illustrator"
+                                                    aria-expanded="false" aria-controls="flush-Illustrator">
+                                                    Illustrator
+                                                </button>
+                                            </h2>
+                                            <div id="flush-Illustrator" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>Introduction
+                                                            to Illustrator</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>Icon
+                                                            Design</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>3D Design
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>Perspective
+                                                            3D</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>2D / 3D
+                                                            Infographic Elements</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>Isometric
+                                                            Elements</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>Logo
+                                                            Design</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-Figma"
+                                                    aria-expanded="false" aria-controls="flush-Figma">
+                                                    Figma
+                                                </button>
+                                            </h2>
+                                            <div id="flush-Figma" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Introduction to Figma Design</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Type of
+                                                            Wireframing</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Consistancy of Color, Fonts, Grid, Color &amp; Icon</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Assets
+                                                            and File Manage</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Explore
+                                                            Text &amp; Styles</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Install
+                                                            Plugins</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Website
+                                                            Interactions &amp; Prototyping</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Global
+                                                            Design System for your Brand</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-Html"
+                                                    aria-expanded="false" aria-controls="flush-Html">
+                                                    Getting Familiar with HTML
+                                                </button>
+                                            </h2>
+                                            <div id="flush-Html" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Introduction to HTML/HTML5</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Formatting Tags</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Form
+                                                            Elements</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Table
+                                                            Layout&nbsp;</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> HTML
+                                                            Lists</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            HTML&nbsp;Media Tags</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-css"
+                                                    aria-expanded="false" aria-controls="flush-css">
+                                                    Make IT Beautiful with CSS / CSS3
+                                                </button>
+                                            </h2>
+                                            <div id="flush-css" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Introduction to CSS&nbsp;</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Types Of
+                                                            CSS &amp; It's Syntax&nbsp;</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Working
+                                                            with Class &amp; ID</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Font
+                                                            CSS&nbsp;</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Border
+                                                            CSS&nbsp;</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Background CSS</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Implementation of Icon Library</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Transform
+                                                            Property</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> CSS3
+                                                            Animation Property&nbsp;</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> CSS3
+                                                            Filter Property</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Pseudo
+                                                            Classes &amp; Elements</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Form
+                                                            Design</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Product
+                                                            List &amp; Detail View</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Website
+                                                            Slider</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Website
+                                                            Layout Design Using CSS/CSS3</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-Bootstrap"
+                                                    aria-expanded="false" aria-controls="flush-Bootstrap">
+                                                    Bootstrap Responsive Layout
+                                                </button>
+                                            </h2>
+                                            <div id="flush-Bootstrap" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Introduction to Media Query</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Responsive Product View</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Responsive Navigation Menu</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Introduction to&nbsp;Bootstrap</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Bootstrap
+                                                            File Implementation</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Bootstrap
+                                                            Grid System</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Bootstrap
+                                                            Components</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Bootstrap
+                                                            Utilities</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Project
+                                                            Work : Responsive Website Design</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-Tailwind-css"
+                                                    aria-expanded="false" aria-controls="flush-Tailwind-css">
+                                                    Tailwind CSS
+                                                </button>
+                                            </h2>
+                                            <div id="flush-Tailwind-css" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Introduction &amp; Setup of Tailwind CSS</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Grid
+                                                            System</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Containers</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Components of Tailwind CSS</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Customization</li>
+                                                        <li class="pb-2">
+                                                            <i class="fa-solid fa-laptop-code me-1 fs-6"></i> Project
+                                                            Work : Responsive Designing with Tailwind CSS
 
-                                                        &nbsp;
-                                                    </li>
-                                                </ul>
+                                                            &nbsp;
+
+                                                            &nbsp;
+                                                        </li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-JavaScript" aria-expanded="false" aria-controls="flush-JavaScript">
-                                                JavaScript / JQuery
-                                            </button>
-                                        </h2>
-                                        <div id="flush-JavaScript" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Introduction to JavaScript&nbsp;</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Operators&nbsp;</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Contional statements&nbsp;</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Loops&nbsp;</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Class, Tag Selector&nbsp;</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Slider&nbsp;</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Validation&nbsp;</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> jQuery Selector&nbsp;</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> jQuery Events&nbsp;</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> jQuery Methods</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> jQuery HTML</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> jQuery Traversing Methods</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> jQuery Validation</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> jQuery Slideshow</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> jQuery Libraries</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-JavaScript"
+                                                    aria-expanded="false" aria-controls="flush-JavaScript">
+                                                    JavaScript / JQuery
+                                                </button>
+                                            </h2>
+                                            <div id="flush-JavaScript" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Introduction to JavaScript&nbsp;</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Operators&nbsp;</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Contional
+                                                            statements&nbsp;</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Loops&nbsp;</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Class,
+                                                            Tag Selector&nbsp;</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Slider&nbsp;</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Validation&nbsp;</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> jQuery
+                                                            Selector&nbsp;</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> jQuery
+                                                            Events&nbsp;</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> jQuery
+                                                            Methods</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> jQuery
+                                                            HTML</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> jQuery
+                                                            Traversing Methods</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> jQuery
+                                                            Validation</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> jQuery
+                                                            Slideshow</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> jQuery
+                                                            Libraries</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-SASS-SCSS" aria-expanded="false" aria-controls="flush-SASS-SCSS">
-                                                SASS / SCSS
-                                            </button>
-                                        </h2>
-                                        <div id="flush-SASS-SCSS" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Introduction of&nbsp;SASS / SCSS</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Installation of Node.js &amp; SASS</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Sass Commands</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> SASS Syntax</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> SASS Variable</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Interpolation</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> SASS @@mixin &amp; @@include</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> SASS @@import</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> SASS Inheritance / @@extend</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> SASS @@each Directive</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> SASS Nesting</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Create Dynamic Website using SASS/SCSS</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-SASS-SCSS"
+                                                    aria-expanded="false" aria-controls="flush-SASS-SCSS">
+                                                    SASS / SCSS
+                                                </button>
+                                            </h2>
+                                            <div id="flush-SASS-SCSS" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Introduction of&nbsp;SASS / SCSS</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Installation of Node.js &amp; SASS</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Sass
+                                                            Commands</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> SASS
+                                                            Syntax</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> SASS
+                                                            Variable</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Interpolation</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> SASS
+                                                            @@mixin &amp; @@include</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> SASS
+                                                            @@import</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> SASS
+                                                            Inheritance / @@extend</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> SASS
+                                                            @@each Directive</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> SASS
+                                                            Nesting</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Create
+                                                            Dynamic Website using SASS/SCSS</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-Wordpress" aria-expanded="false" aria-controls="flush-Wordpress">
-                                                Wordpress
-                                            </button>
-                                        </h2>
-                                        <div id="flush-Wordpress" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Introduction to WordPress</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Hosting, Domain name, Server, and WordPress Installation</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> WordPress Dashboard</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> WordPress Theme</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Customizing WordPress Theme</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Creating Users in WordPress with different role</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Managing Media in WordPress</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> WordPress Plugins</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Creating content (pages and posts)</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Widgets</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Creating E-Commerce Website using WordPress</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-Wordpress"
+                                                    aria-expanded="false" aria-controls="flush-Wordpress">
+                                                    Wordpress
+                                                </button>
+                                            </h2>
+                                            <div id="flush-Wordpress" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Introduction to WordPress</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Hosting,
+                                                            Domain name, Server, and WordPress Installation</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> WordPress
+                                                            Dashboard</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> WordPress
+                                                            Theme</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Customizing WordPress Theme</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Creating
+                                                            Users in WordPress with different role</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Managing
+                                                            Media in WordPress</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> WordPress
+                                                            Plugins</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Creating
+                                                            content (pages and posts)</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Widgets
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Creating
+                                                            E-Commerce Website using WordPress</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-Live-Project" aria-expanded="false" aria-controls="flush-Live-Project">
-                                                Live Project
-                                            </button>
-                                        </h2>
-                                        <div id="flush-Live-Project" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">
-                                                <ul>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Introduction to WordPress</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Hosting, Domain name, Server, and WordPress Installation</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> WordPress Dashboard</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> WordPress Theme</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Customizing WordPress Theme</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Creating Users in WordPress with different role</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Managing Media in WordPress</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> WordPress Plugins</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Creating content (pages and posts)</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Widgets</li>
-                                                    <li class="pb-2"><i class="fa-solid fa-laptop-code me-1 fs-6"></i> Creating E-Commerce Website using WordPress</li>
-                                                </ul>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-Live-Project"
+                                                    aria-expanded="false" aria-controls="flush-Live-Project">
+                                                    Live Project
+                                                </button>
+                                            </h2>
+                                            <div id="flush-Live-Project" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Introduction to WordPress</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Hosting,
+                                                            Domain name, Server, and WordPress Installation</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> WordPress
+                                                            Dashboard</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> WordPress
+                                                            Theme</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i>
+                                                            Customizing WordPress Theme</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Creating
+                                                            Users in WordPress with different role</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Managing
+                                                            Media in WordPress</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> WordPress
+                                                            Plugins</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Creating
+                                                            content (pages and posts)</li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Widgets
+                                                        </li>
+                                                        <li class="pb-2"><i
+                                                                class="fa-solid fa-laptop-code me-1 fs-6"></i> Creating
+                                                            E-Commerce Website using WordPress</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -356,87 +676,99 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="row mt-4">
+                        <div class="col-lg-4 mb-lg-0 mb-3 px-lg-2 p-0">
+                            <div class="course-categories-box d-flex align-items-center justify-content-center">
+                                <div class="text-center">
+                                    <p><i class="fa-solid fa-book fs-1"></i></p>
+                                    <h5 class="text-white mt-2">
+                                        Course Duration
+                                    </h5>
+                                    <p>
+                                        12 Month
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-lg-0 mb-3 px-lg-2 p-0">
+                            <div
+                                class="course-categories-box course-categories-box1 d-flex align-items-center justify-content-center">
+                                <div class="text-center">
+                                    <p><i class="fa-solid fa-clock fs-1"></i></p>
+                                    <h5 class="text-white mt-2">
+                                        Lectures Duration
+                                    </h5>
+                                    <p>
+                                        2 + 2 Hourse / Day
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-lg-0 mb-3 px-lg-2 p-0">
+                            <div class="course-categories-box d-flex align-items-center justify-content-center">
+                                <div class="text-center">
+                                    <p><i class="fa-solid fa-graduation-cap fs-1"></i></p>
+                                    <h5 class="text-white mt-2">
+                                        Job Opportunities
+                                    </h5>
+                                    <p>
+                                        Yes
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="row mt-4">
-                    <div class="col-lg-4 mb-lg-0 mb-3 px-lg-2 p-0">
-                        <div class="course-categories-box d-flex align-items-center justify-content-center">
-                            <div class="text-center">
-                                <p><i class="fa-solid fa-book fs-1"></i></p>
-                                <h5 class="text-white mt-2">
-                                    Course Duration
-                                </h5>
-                                <p>
-                                    12 Month
-                                </p>
+                <div class="col-lg-4 ps-lg-5">
+                    <div class="p-4 border rounded position-sticky" style="top: 100px;">
+                        <h4 class="mb-3">Our Course</h4>
+                        <hr />
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="w-25">
+                                <img src="/images/web-design-banner.jpg" alt="web design course in vrachha" />
+                            </div>
+                            <div class="our-course-name">
+                                <a href="/web_design_course_surat.html">Web design</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 mb-lg-0 mb-3 px-lg-2 p-0">
-                        <div class="course-categories-box course-categories-box1 d-flex align-items-center justify-content-center">
-                            <div class="text-center">
-                                <p><i class="fa-solid fa-clock fs-1"></i></p>
-                                <h5 class="text-white mt-2">
-                                    Lectures Duration
-                                </h5>
-                                <p>
-                                    2 + 2 Hourse / Day
-                                </p>
+                        <div class="d-flex align-items-center gap-3 mt-3">
+                            <div class="w-25">
+                                <img src="/images/webdev.jpg" alt="web devlopment course in vrachha" />
+                            </div>
+                            <div class="our-course-name">
+                                <a href="/Web_Development_course_surat.html">Web devlopment</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 mb-lg-0 mb-3 px-lg-2 p-0">
-                        <div class="course-categories-box d-flex align-items-center justify-content-center">
-                            <div class="text-center">
-                                <p><i class="fa-solid fa-graduation-cap fs-1"></i></p>
-                                <h5 class="text-white mt-2">
-                                    Job Opportunities
-                                </h5>
-                                <p>
-                                    Yes
-                                </p>
+                        <div class="d-flex align-items-center gap-3 mt-3">
+                            <div class="w-25">
+                                <img src="/images/fullstack.jpg" alt="full stack devlopment course in vrachha" />
+                            </div>
+                            <div class="our-course-name">
+                                <a href="/Fullstack_Development_course_surat.html">Full Stack Devlopment</a>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 ps-lg-5">
-                <div class="p-4 border rounded position-sticky" style="top: 100px;">
-                    <h4 class="mb-3">Our Course</h4>
-                    <hr />
-                    <div class="d-flex align-items-center gap-3">
-                        <div class="w-25">
-                            <img src="~/images/web-design-banner.jpg" alt="web design course in vrachha" />
-                        </div>
-                        <div class="our-course-name">
-                            <a href="~/home/web_design_course_surat">Web design</a>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center gap-3 mt-3">
-                        <div class="w-25">
-                            <img src="~/images/webdev.jpg" alt="web devlopment course in vrachha" />
-                        </div>
-                        <div class="our-course-name">
-                            <a href="~/home/Web_Development_course_surat">Web devlopment</a>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center gap-3 mt-3">
-                        <div class="w-25">
-                            <img src="~/images/fullstack.jpg" alt="full stack devlopment course in vrachha" />
-                        </div>
-                        <div class="our-course-name">
-                            <a href="~/home/Fullstack_Development_course_surat">Full Stack Devlopment</a>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center gap-3 mt-3">
-                        <div class="w-25">
-                            <img src="~/images/uiux.jpg" alt="uiux design course in vrachha" />
-                        </div>
-                        <div class="our-course-name">
-                            <a href="~/home/UiUx_design_course_surat">Ui/Ux design</a>
+                        <div class="d-flex align-items-center gap-3 mt-3">
+                            <div class="w-25">
+                                <img src="/images/uiux.jpg" alt="uiux design course in vrachha" />
+                            </div>
+                            <div class="our-course-name">
+                                <a href="/UiUx_design_course_surat.html">Ui/Ux design</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+    <div id="footer"></div>
+    <script>
+        fetch("footer.html")
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById("footer").innerHTML = data;
+            });
+    </script>
+</body>
+
+</html>
