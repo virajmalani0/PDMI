@@ -1,148 +1,202 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700;800;900&family=Sora:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet');
+
 /* sora-100 - latin */
 /* sora-100 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Sora';
-  font-style: normal;
-  font-weight: 100;
-  src: url('../fonts/sora-v17-latin-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/sora-v17-latin-100.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* sora-200 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Sora';
-  font-style: normal;
-  font-weight: 200;
-  src: url('../fonts/sora-v17-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/sora-v17-latin-200.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* sora-300 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Sora';
-  font-style: normal;
-  font-weight: 300;
-  src: url('../fonts/sora-v17-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/sora-v17-latin-300.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* sora-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Sora';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/sora-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/sora-v17-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* sora-500 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Sora';
-  font-style: normal;
-  font-weight: 500;
-  src: url('../fonts/sora-v17-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/sora-v17-latin-500.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* sora-600 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Sora';
-  font-style: normal;
-  font-weight: 600;
-  src: url('../fonts/sora-v17-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/sora-v17-latin-600.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* sora-700 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Sora';
-  font-style: normal;
-  font-weight: 700;
-  src: url('../fonts/sora-v17-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/sora-v17-latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* sora-800 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Sora';
-  font-style: normal;
-  font-weight: 800;
-  src: url('../fonts/sora-v17-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/sora-v17-latin-800.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* epilogue-100 - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 100;
-    src: url('../fonts/epilogue-v17-latin-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../fonts/epilogue-v17-latin-100.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* epilogue-100italic - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Epilogue';
     font-style: italic;
     font-weight: 100;
-    src: url('../fonts/epilogue-v17-latin-100italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../fonts/epilogue-v17-latin-100italic.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* epilogue-200 - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 200;
-    src: url('../fonts/epilogue-v17-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../fonts/epilogue-v17-latin-200.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* epilogue-300 - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 300;
-    src: url('../fonts/epilogue-v17-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../fonts/epilogue-v17-latin-300.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* epilogue-regular - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/epilogue-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../fonts/epilogue-v17-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* epilogue-500 - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 500;
-    src: url('../fonts/epilogue-v17-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../fonts/epilogue-v17-latin-500.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* epilogue-600 - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 600;
-    src: url('../fonts/epilogue-v17-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../fonts/epilogue-v17-latin-600.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* epilogue-700 - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 700;
-    src: url('../fonts/epilogue-v17-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../fonts/epilogue-v17-latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* epilogue-800 - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 800;
-    src: url('../fonts/epilogue-v17-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../fonts/epilogue-v17-latin-800.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* epilogue-900 - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 900;
-    src: url('../fonts/epilogue-v17-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../fonts/epilogue-v17-latin-900.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 
@@ -153,7 +207,7 @@
     --it-common-black: #3859A8;
     --it-common-black-1: #333931;
     --it-common-yellow: #E3A524;
-    --it-common-yellow-1: rgba(227,165,36,0.2);
+    --it-common-yellow-1: rgba(227, 165, 36, 0.2);
     --it-heading-primary: #0E2A46;
     --it-grey-1: #F2F2F2;
     --it-text-body: #333931;
@@ -177,6 +231,7 @@ a {
     margin: 0;
     padding: 0;
 }
+
 ul {
     list-style: none;
     margin: 0;
@@ -211,7 +266,8 @@ img {
     padding: 100px 0;
 }
 
-.row, p {
+.row,
+p {
     margin: 0;
 }
 
@@ -255,6 +311,7 @@ img {
 .grey-bg {
     background-color: var(--it-grey-1);
 }
+
 .sub-page-banner {
     background-image: url('../images/sub-banner.jpg');
     height: 300px;
@@ -262,6 +319,7 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .sub-page-banner-layer {
     height: 100%;
     width: 100%;
@@ -270,20 +328,24 @@ img {
     background: rgba(0, 0, 0, 0.1);
     text-transform: capitalize;
 }
-.sub-page-title{
+
+.sub-page-title {
     font-size: 36px;
     font-weight: bold;
     color: #fff;
 }
-.sub-menu-link ,
-.sub-menu-link a{
+
+.sub-menu-link,
+.sub-menu-link a {
     color: #fff;
     font-size: 16px;
     transition: 0.5s;
 }
+
 .sub-menu-link a:hover {
     color: var(--it-common-yellow);
 }
+
 /* ============================ header start ========================== */
 .contact_header {
     background-color: var(--it-common-yellow);
@@ -345,16 +407,16 @@ img {
     }
 }
 
-.main-header-menu > li > a {
+.main-header-menu>li>a {
     padding: 26px 20px;
 }
 
-.mob-header-menu > li > a {
+.mob-header-menu>li>a {
     padding: 10px 5px;
 }
 
-.mob-header-menu > li > a,
-.main-header-menu > li > a {
+.mob-header-menu>li>a,
+.main-header-menu>li>a {
     transition: 0.5s;
     font-size: 16px;
     display: block;
@@ -366,9 +428,11 @@ img {
 .main-header .main-header-menu a:hover {
     color: var(--it-common-yellow);
 }
-.main-header-menu{
+
+.main-header-menu {
     position: relative;
 }
+
 .sub-header {
     position: absolute;
     left: 0;
@@ -382,7 +446,7 @@ img {
     transition: 0.4s;
 }
 
-.main-header-menu > li:hover .sub-header {
+.main-header-menu>li:hover .sub-header {
     opacity: 1;
     visibility: visible;
     top: 100%;
@@ -407,6 +471,7 @@ img {
     font-size: 17px !important;
     color: var(--it-common-yellow) !important;
 }
+
 /*.sub-mob-header{
     max-height: 0px;
     overflow: hidden;
@@ -434,7 +499,10 @@ img {
     margin: 0 auto;
 }
 
-#main-banner .owl-nav .owl-prev, #stuent-review .owl-nav .owl-prev, #main-banner .owl-nav .owl-next, #stuent-review .owl-nav .owl-next {
+#main-banner .owl-nav .owl-prev,
+#stuent-review .owl-nav .owl-prev,
+#main-banner .owl-nav .owl-next,
+#stuent-review .owl-nav .owl-next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -473,55 +541,56 @@ img {
 /*=============== course details ===================*/
 .course-box {
     background-color: var(--it-grey-1);
-    padding: 60px 15px;
+    padding: 40px 15px;
     border-radius: 12px;
+    transition: 0.5s;
+    height: 100%;
+}
+
+.course-box:hover {
+    background-color: var(--it-common-yellow);
+    color: var(--it-common-white);
+}
+
+.course-box span {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    fill: #fff;
+    background-color: var(--it-common-yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.5s;
+    stroke: var(--it-common-white);
+}
+
+.course-box span:after {
+    content: '';
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    border: 3px dashed var(--it-common-yellow);
+    border-radius: 50%;
+    background-color: transparent;
     transition: 0.5s;
 }
 
-    .course-box:hover {
-        background-color: var(--it-common-yellow);
-        color: var(--it-common-white);
-    }
+.course-box:hover span {
+    background-color: var(--it-common-white);
+    fill: var(--it-common-yellow);
+    stroke: var(--it-common-yellow);
+}
 
-    .course-box span {
-        display: inline-block;
-        width: 100px;
-        height: 100px;
-        fill: #fff;
-        background-color: var(--it-common-yellow);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-        transition: 0.5s;
-        stroke: var(--it-common-white);
-    }
+.course-box:hover span:after {
+    border: 3px dashed var(--it-common-white);
+}
 
-        .course-box span:after {
-            content: '';
-            width: 120px;
-            height: 120px;
-            position: absolute;
-            border: 3px dashed var(--it-common-yellow);
-            border-radius: 50%;
-            background-color: transparent;
-            transition: 0.5s;
-        }
-
-    .course-box:hover span {
-        background-color: var(--it-common-white);
-        fill: var(--it-common-yellow);
-        stroke: var(--it-common-yellow);
-    }
-
-        .course-box:hover span:after {
-            border: 3px dashed var(--it-common-white);
-        }
-
-    .course-box svg {
-        width: 70px;
-        height: 70px;
-    }
+.course-box svg {
+    width: 70px;
+    height: 70px;
+}
 
 .course-box-text a {
     font-size: 15px;
@@ -540,6 +609,7 @@ img {
     border-radius: 8px;
     padding: 30px 20px;
     background-color: #F8F6F1;
+    height: 100%;
 }
 
 .Choose-box h6 i {
@@ -554,16 +624,28 @@ img {
     line-height: 20px;
     margin-bottom: 0;
 }
-.why-choose-img img{
+
+.why-choose-img img {
     border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
+
 /*=============student review =============*/
 .student-review-box {
     padding: 30px;
     border-radius: 8px;
     background-color: #fff;
     box-shadow: 0 0px 5px rgba(25, 25, 25, 0.1);
+}
+
+.student-review-box p {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    /* ketli line sudhi batavvu */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 15px;
 }
 
 .student-review-images {
@@ -574,18 +656,18 @@ img {
     border: 3px dotted var(--it-common-yellow);
 }
 
-    .student-review-images img {
-        border-radius: 50%;
-        border: 2px solid var(--it-common-white);
-    }
+.student-review-images img {
+    border-radius: 50%;
+    border: 2px solid var(--it-common-white);
+}
 
-.student-review-name h5 {
+.student-review-name h6 {
     font-weight: 600;
     color: var(--it-common-yellow);
 }
 
 .student-review-name p {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 25px;
 }
 
@@ -603,29 +685,32 @@ img {
     transition: 1s;
 }
 
-    #stuent-review .owl-item.active.center {
-        opacity: 1;
-        transform: scale(1);
-    }
+#stuent-review .owl-item.active.center {
+    opacity: 1;
+    transform: scale(1);
+}
 
 
 /* =========================== about us =====================*/
 .about-right-image {
     position: relative;
 }
-.about-right-image:before{
+
+.about-right-image:before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     height: 100%;
     width: 100%;
 }
+
 .about-right-image {
     height: 600px;
     border: 10px solid var(--it-common-white);
 }
+
 .about-right-image-shape-1 {
     position: absolute;
     top: -26px;
@@ -647,6 +732,7 @@ img {
     border-bottom: 320px solid var(--it-common-black);
     border-left: 320px solid transparent;
 }
+
 .video-play-button {
     position: absolute;
     z-index: 10;
@@ -728,23 +814,27 @@ img {
 
 
 /*========================= footer ===================*/
-footer{
+footer {
     background-color: var(--it-common-black);
 }
-footer a{
+
+footer a {
     /*display: inline-block;*/
     color: #fff;
     font-size: 15px;
 }
+
 footer a:hover {
     color: var(--it-common-yellow);
 }
-.footer-content{
+
+.footer-content {
     font-size: 15px;
     line-height: 25px;
     font-weight: 400;
     text-align: justify;
 }
+
 .fotter-social-icon a {
     color: var(--it-common-yellow);
     background-color: var(--it-grey-1);
@@ -757,6 +847,7 @@ footer a:hover {
     margin-right: 10px;
     transition: 0.5s;
 }
+
 .fotter-social-icon a:hover {
     color: var(--it-grey-1);
     background-color: var(--it-common-yellow);
@@ -775,67 +866,81 @@ footer a:hover {
     border-radius: 5px;
     transition: 0.5s;
 }
-.course-details-nav button:hover ,
+
+.course-details-nav button:hover,
 .course-details-nav button.active {
     background-color: var(--it-common-yellow) !important;
     color: var(--it-common-white) !important;
 }
+
 #nav-overview h4,
-#nav-overview h5{
+#nav-overview h5 {
     color: var(--it-common-black-1);
 }
+
 #nav-overview li,
-#nav-overview p{
+#nav-overview p {
     font-size: 16px;
     line-height: 24px;
     color: #888888;
 }
+
 #nav-overview p {
     margin-bottom: 1rem;
 }
+
 #nav-overview li {
     list-style: disc;
 }
+
 #nav-overview ul {
     padding-left: 20px;
 }
+
 #nav-topic .accordion-button {
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
+
 #nav-topic .accordion-button:not(.collapsed) {
     background-color: var(--it-common-white);
     color: var(--it-common-yellow);
 }
+
 #nav-topic .accordion-button:focus {
     box-shadow: none;
 }
-#nav-topic li{
+
+#nav-topic li {
     font-size: 14px;
     line-height: 24px;
     color: #888888;
 }
+
 .course-categories-box {
     height: 170px;
     width: 100%;
-    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
     border-radius: 10px 10px 10px 10px;
     background-color: var(--it-common-yellow);
     color: var(--it-common-white) !important;
 }
-.course-categories-box1{
+
+.course-categories-box1 {
     background-color: var(--it-common-black);
 }
-.our-course-name a{
+
+.our-course-name a {
     color: var(--it-common-black);
     font-size: 16px;
     transition: 0.5s;
 }
+
 .our-course-name a:hover {
     color: var(--it-common-yellow);
 }
 
 /*==============conatct us ==============*/
-.contact-us-icon{
+.contact-us-icon {
     height: 70px;
     width: 70px;
     border-radius: 50%;
@@ -843,11 +948,13 @@ footer a:hover {
     font-size: 22px;
     color: var(--it-common-white);
 }
-.contact-us-content a{
+
+.contact-us-content a {
     font-size: 15px;
     color: var(--it-common-black);
     transition: 0.5s;
 }
+
 .contact-us-content a:hover {
     color: var(--it-common-yellow);
 }
