@@ -27,35 +27,83 @@ $(window).on('load', function () {
             }
         }
     });
-    $('#stuent-review').owlCarousel({
-        loop: true,
-        margin: 35,
-        stagePadding: 10,
-        nav: true,
-        dots: false,
-        autoplay: true,
-        mouseDrag: false,
-        autoplayTimeout: 5000,
-        autoplayHoverPause: true,
-        smartSpeed: 1000,
-        center: true,
-        animateIn: 'fadeIn',
-        animateOut: 'fadeOut',
-        navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
-        responsive: {
-            0: {
-                nav: false,
-                touchDrag: true,
-                items: 1
-            },
-            600: {
-                items: 2
-            },
-            1000: {
-                items: 3
-            }
+    // $('#stuent-review').owlCarousel({
+    //     loop: true,
+    //     margin: 35,
+    //     stagePadding: 10,
+    //     nav: true,
+    //     dots: false,
+    //     autoplay: true,
+    //     mouseDrag: false,
+    //     autoplayTimeout: 5000,
+    //     autoplayHoverPause: true,
+    //     smartSpeed: 1000,
+    //     center: true,
+    //     animateIn: 'fadeIn',
+    //     animateOut: 'fadeOut',
+    //     navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
+    //     responsive: {
+    //         0: {
+    //             nav: false,
+    //             touchDrag: true,
+    //             items: 1
+    //         },
+    //         600: {
+    //             items: 2
+    //         },
+    //         1000: {
+    //             items: 3
+    //         }
+    //     }
+    // });
+    $("#stuent-review").owlCarousel({
+
+    loop: true,
+    center: true,
+
+    margin: 25,
+
+    nav: true,
+    dots: true,
+
+    autoplay: true,
+
+    autoplayTimeout: 4000,
+
+    autoplayHoverPause: true,
+
+    smartSpeed: 800,
+
+    navText: [
+        '<i class="fa-solid fa-angle-left"></i>',
+        '<i class="fa-solid fa-angle-right"></i>'
+    ],
+
+    responsive: {
+
+        0: {
+            items: 1,
+            center: false
+        },
+
+        576: {
+            items: 1,
+            center: false
+        },
+
+        768: {
+            items: 2,
+            center: false
+        },
+
+        992: {
+            items: 3,
+            center: true
         }
-    });
+
+    }
+
+});
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
         if (scroll < 400) {
