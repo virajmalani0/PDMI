@@ -58,52 +58,54 @@ $(window).on('load', function () {
     // });
     $("#stuent-review").owlCarousel({
 
-    loop: true,
-    center: true,
+        loop: true,
+        center: true,
 
-    margin: 25,
+        margin: 25,
 
-    nav: true,
-    dots: true,
+        nav: true,
+        dots: true,
 
-    autoplay: true,
+        autoplay: true,
 
-    autoplayTimeout: 4000,
+        autoplayTimeout: 4000,
 
-    autoplayHoverPause: true,
+        autoplayHoverPause: true,
 
-    smartSpeed: 800,
+        smartSpeed: 800,
 
-    navText: [
-        '<i class="fa-solid fa-angle-left"></i>',
-        '<i class="fa-solid fa-angle-right"></i>'
-    ],
+        navText: [
+            '<i class="fa-solid fa-angle-left"></i>',
+            '<i class="fa-solid fa-angle-right"></i>'
+        ],
 
-    responsive: {
+        responsive: {
 
-        0: {
-            items: 1,
-            center: false
-        },
+            0: {
+                nav: false,
+                //             touchDrag: true,
+                items: 1,
+                center: true
+            },
 
-        576: {
-            items: 1,
-            center: false
-        },
+            576: {
+                items: 1,
+                center: false
+            },
 
-        768: {
-            items: 2,
-            center: false
-        },
+            768: {
+                items: 2,
+                center: false
+            },
 
-        992: {
-            items: 3,
-            center: true
+            992: {
+                items: 3,
+                center: true
+            }
+
         }
 
-    }
-
-});
+    });
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
         if (scroll < 400) {
