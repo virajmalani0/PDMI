@@ -485,9 +485,9 @@ p {
 
 
 /*====================== Main Banner ======================*/
-/*.main-banner{
+.main-banner{
     height: 80vh;
-}*/
+}
 #main-banner {
     max-width: 100%;
     margin: 0 auto;
@@ -1381,31 +1381,714 @@ p {
 }
 
 /*=============== why choose us ===================*/
-.Choose-box {
-    border-radius: 8px;
-    padding: 30px 20px;
-    background-color: #F8F6F1;
-    height: 100%;
+/* =====================================================
+   WHY CHOOSE US SECTION
+===================================================== */
+
+.why-choose-section {
+    position: relative;
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            circle at 95% 10%,
+            rgba(56, 89, 168, 0.06),
+            transparent 28%
+        ),
+        var(--it-common-white);
 }
 
-.Choose-box h6 i {
-    color: var(--it-common-yellow);
-    font-size: 20px;
+
+/* =====================================================
+   LEFT CONTENT
+===================================================== */
+
+.why-content {
+    position: relative;
+    z-index: 2;
 }
+
+
+/* Sub Title */
+
+.why-sub-title {
+    display: inline-flex !important;
+    align-items: center;
+
+    padding: 9px 16px !important;
+
+    background: var(--it-common-yellow-1) !important;
+
+    color: var(--it-common-yellow) !important;
+
+    border-radius: 7px;
+
+    font-size: 12px !important;
+    font-weight: 600;
+
+    letter-spacing: 0.4px;
+}
+
+
+.why-sub-title i {
+    color: var(--it-common-yellow);
+}
+
+
+/* Main Heading */
+
+.why-main-title {
+    margin-top: 18px !important;
+    margin-bottom: 0 !important;
+
+    color: var(--it-heading-primary) !important;
+
+    font-size: 39px !important;
+    line-height: 1.25 !important;
+    font-weight: 700 !important;
+}
+
+
+.why-main-title span {
+    color: var(--it-common-black);
+}
+
+
+/* Description */
+
+.why-description {
+    max-width: 670px;
+
+    margin-top: 20px;
+    margin-bottom: 0;
+
+    color: var(--it-text-body);
+
+    font-size: 14px;
+    line-height: 1.9;
+
+    opacity: 0.82;
+}
+
+
+/* =====================================================
+   TITLE DECORATIVE LINE
+===================================================== */
+
+.why-title-line {
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+
+
+.why-title-line span:first-child {
+    width: 55px;
+    height: 4px;
+
+    border-radius: 10px;
+
+    background: var(--it-common-black);
+}
+
+
+.why-title-line span:nth-child(2) {
+    width: 45px;
+    height: 4px;
+
+    border-radius: 10px;
+
+    background: var(--it-common-yellow);
+}
+
+
+.why-title-line i {
+    display: block;
+
+    width: 7px;
+    height: 7px;
+
+    border-radius: 50%;
+
+    background: var(--it-common-yellow);
+}
+
+
+/* =====================================================
+   FEATURE GRID
+===================================================== */
+
+.why-feature-row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+
+.why-feature-row > div {
+    padding: 8px;
+}
+
+
+/* Feature Card */
+
+.Choose-box {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    gap: 18px;
+
+    min-height: 125px;
+    height: 100%;
+
+    padding: 22px 20px;
+
+    overflow: hidden;
+
+    background: var(--it-common-white);
+
+    border-radius: 12px;
+
+    border: 1px solid rgba(56, 89, 168, 0.08);
+
+    box-shadow:
+        0 8px 25px rgba(14, 42, 70, 0.08);
+
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease;
+}
+
+
+/* Side accent */
+
+.Choose-box::before {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 3px;
+    height: 100%;
+
+    border-radius: 12px 0 0 12px;
+}
+
+
+.choose-blue::before {
+    background: var(--it-common-black);
+}
+
+
+.choose-yellow::before {
+    background: var(--it-common-yellow);
+}
+
+
+/* Hover */
+
+.Choose-box:hover {
+    transform: translateY(-6px);
+
+    box-shadow:
+        0 15px 32px rgba(14, 42, 70, 0.13);
+}
+
+
+/* =====================================================
+   FEATURE ICON
+===================================================== */
+
+.choose-icon {
+    position: relative;
+
+    width: 58px;
+    height: 58px;
+
+    min-width: 58px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    color: var(--it-common-white);
+
+    font-size: 21px;
+
+    transition:
+        transform 0.35s ease;
+}
+
+
+.choose-blue .choose-icon {
+    background:
+        linear-gradient(
+            135deg,
+            var(--it-common-black),
+            var(--it-heading-primary)
+        );
+
+    box-shadow:
+        0 7px 18px rgba(56, 89, 168, 0.22);
+}
+
+
+.choose-yellow .choose-icon {
+    background: var(--it-common-yellow);
+
+    box-shadow:
+        0 7px 18px rgba(227, 165, 36, 0.25);
+}
+
+
+.Choose-box:hover .choose-icon {
+    transform: rotate(-5deg) scale(1.08);
+}
+
+
+/* =====================================================
+   FEATURE TEXT
+===================================================== */
+
+.choose-content {
+    flex: 1;
+}
+
+
+.Choose-box h6 {
+    margin: 0 0 7px;
+
+    color: var(--it-heading-primary);
+
+    font-size: 15px;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+
+.choose-blue h6 {
+    color: var(--it-common-black);
+}
+
+
+.choose-yellow h6 {
+    color: var(--it-heading-primary);
+}
+
 
 .Choose-box p {
-    color: #4D5756;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 20px;
-    margin-bottom: 0;
+    margin: 0;
+
+    color: var(--it-text-body);
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.7;
+
+    opacity: 0.78;
 }
 
-.why-choose-img img {
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+/* =====================================================
+   RIGHT IMAGE COLLAGE
+===================================================== */
+
+.why-image-wrapper {
+    position: relative;
+
+    width: 100%;
+    height: 525px;
+
+    margin-left: 25px;
 }
 
+
+/* All images */
+
+.why-img {
+    position: absolute;
+
+    overflow: hidden;
+
+    padding: 5px;
+
+    background: var(--it-common-white);
+
+    border-radius: 16px;
+
+    box-shadow:
+        0 12px 30px rgba(14, 42, 70, 0.16);
+
+    z-index: 3;
+}
+
+
+.why-img img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+    box-shadow: none;
+}
+
+
+/* =====================================================
+   MAIN IMAGE
+===================================================== */
+
+.why-img-main {
+    width: 64%;
+    height: 310px;
+
+    left: 0;
+    top: 115px;
+
+    z-index: 3;
+}
+
+
+/* =====================================================
+   TOP IMAGE
+===================================================== */
+
+.why-img-top {
+    width: 49%;
+    height: 205px;
+
+    right: 0;
+    top: 25px;
+
+    z-index: 5;
+}
+
+
+/* =====================================================
+   BOTTOM IMAGE
+===================================================== */
+
+.why-img-bottom {
+    width: 49%;
+    height: 225px;
+
+    right: 0;
+    bottom: 35px;
+
+    z-index: 5;
+}
+
+
+/* =====================================================
+   BLUE DECORATIVE CORNER
+===================================================== */
+
+.why-blue-shape {
+    position: absolute;
+
+    width: 115px;
+    height: 115px;
+
+    right: 35%;
+    top: 5px;
+
+    border-top:
+        12px solid
+        var(--it-common-black);
+
+    border-left:
+        12px solid
+        var(--it-common-black);
+
+    border-radius: 25px 0 0 0;
+
+    z-index: 1;
+}
+
+
+/* =====================================================
+   YELLOW DECORATIVE CORNER
+===================================================== */
+
+.why-yellow-shape {
+    position: absolute;
+
+    width: 105px;
+    height: 105px;
+
+    right: -18px;
+    bottom: 8px;
+
+    border-right:
+        13px solid
+        var(--it-common-yellow);
+
+    border-bottom:
+        13px solid
+        var(--it-common-yellow);
+
+    border-radius: 0 0 24px 0;
+
+    z-index: 1;
+}
+
+
+/* =====================================================
+   YELLOW DOTS
+===================================================== */
+
+.why-yellow-dots {
+    position: absolute;
+
+    width: 100px;
+    height: 100px;
+
+    top: 65px;
+    left: -35px;
+
+    background-image:
+        radial-gradient(
+            var(--it-common-yellow) 2px,
+            transparent 2px
+        );
+
+    background-size: 12px 12px;
+
+    opacity: 0.75;
+
+    z-index: 1;
+}
+
+
+/* =====================================================
+   BLUE DOTS
+===================================================== */
+
+.why-blue-dots {
+    position: absolute;
+
+    width: 100px;
+    height: 100px;
+
+    right: 37%;
+    bottom: 0;
+
+    background-image:
+        radial-gradient(
+            var(--it-common-black) 2px,
+            transparent 2px
+        );
+
+    background-size: 12px 12px;
+
+    opacity: 0.45;
+
+    z-index: 1;
+}
+
+
+/* =====================================================
+   SUBTLE IMAGE HOVER
+===================================================== */
+
+.why-img {
+    transition:
+        transform 0.4s ease,
+        box-shadow 0.4s ease;
+}
+
+
+.why-img:hover {
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 18px 38px rgba(14, 42, 70, 0.20);
+
+    z-index: 10;
+}
+
+
+/* =====================================================
+   RESPONSIVE - TABLET
+===================================================== */
+
+@media (max-width: 1199px) {
+
+    .why-main-title {
+        font-size: 35px !important;
+    }
+
+    .why-image-wrapper {
+        height: 480px;
+        margin-left: 0;
+    }
+
+    .why-img-main {
+        height: 285px;
+    }
+
+    .why-img-top {
+        height: 185px;
+    }
+
+    .why-img-bottom {
+        height: 205px;
+    }
+
+}
+
+
+/* =====================================================
+   RESPONSIVE - 991
+===================================================== */
+
+@media (max-width: 991px) {
+
+    .why-image-wrapper {
+        max-width: 650px;
+
+        height: 520px;
+
+        margin: 50px auto 0;
+    }
+
+    .why-img-main {
+        width: 62%;
+        height: 320px;
+    }
+
+    .why-img-top {
+        width: 45%;
+        height: 215px;
+    }
+
+    .why-img-bottom {
+        width: 45%;
+        height: 230px;
+    }
+
+}
+
+
+/* =====================================================
+   RESPONSIVE - MOBILE
+===================================================== */
+
+@media (max-width: 767px) {
+
+    .why-main-title {
+        font-size: 29px !important;
+    }
+
+    .why-main-title br {
+        display: none;
+    }
+
+    .why-description {
+        font-size: 13px;
+        line-height: 1.8;
+    }
+
+    .Choose-box {
+        min-height: auto;
+    }
+
+    .why-image-wrapper {
+        height: auto;
+
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+
+        gap: 12px;
+
+        margin-top: 40px;
+    }
+
+    .why-img {
+        position: relative;
+
+        width: 100%;
+        height: 220px;
+
+        top: auto;
+        left: auto;
+        right: auto;
+        bottom: auto;
+    }
+
+    .why-img-main {
+        grid-column: 1 / 3;
+
+        height: 280px;
+    }
+
+    .why-img-top,
+    .why-img-bottom {
+        height: 200px;
+    }
+
+    .why-blue-shape,
+    .why-yellow-shape,
+    .why-yellow-dots,
+    .why-blue-dots {
+        display: none;
+    }
+
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media (max-width: 480px) {
+
+    .why-main-title {
+        font-size: 26px !important;
+    }
+
+    .Choose-box {
+        padding: 20px 17px;
+    }
+
+    .choose-icon {
+        width: 52px;
+        height: 52px;
+
+        min-width: 52px;
+
+        font-size: 18px;
+    }
+
+    .why-image-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .why-img-main {
+        grid-column: auto;
+
+        height: 230px;
+    }
+
+    .why-img-top,
+    .why-img-bottom {
+        height: 220px;
+    }
+
+}
 /* ======================================================
    PDMI STUDENT FEEDBACK SECTION
    Uses existing :root variables
@@ -1498,7 +2181,370 @@ p {
 
     transform: scale(1.05);
 }
+/* =====================================================
+   WHY CHOOSE US - ANIMATIONS
+===================================================== */
 
+/* Smooth initial reveal */
+.why-content,
+.why-image-wrapper {
+    animation-duration: 0.9s;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+.why-content {
+    animation-name: whyFadeLeft;
+}
+
+.why-image-wrapper {
+    animation-name: whyFadeRight;
+}
+
+
+/* Heading animations */
+.why-sub-title {
+    animation: whyFadeUp 0.7s ease both;
+}
+
+.why-main-title {
+    animation: whyFadeUp 0.8s ease 0.1s both;
+}
+
+.why-description {
+    animation: whyFadeUp 0.8s ease 0.2s both;
+}
+
+.why-title-line {
+    animation: whyFadeUp 0.8s ease 0.3s both;
+}
+
+
+/* Feature card stagger animation */
+.why-feature-row > div {
+    opacity: 0;
+    animation: whyCardReveal 0.7s ease forwards;
+}
+
+.why-feature-row > div:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.why-feature-row > div:nth-child(2) {
+    animation-delay: 0.35s;
+}
+
+.why-feature-row > div:nth-child(3) {
+    animation-delay: 0.5s;
+}
+
+.why-feature-row > div:nth-child(4) {
+    animation-delay: 0.65s;
+}
+
+
+/* Card hover upgrade */
+.Choose-box {
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease,
+        border-color 0.35s ease;
+}
+
+.Choose-box:hover {
+    transform: translateY(-8px);
+}
+
+
+/* Icon pulse effect on hover */
+.choose-icon {
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease;
+}
+
+.Choose-box:hover .choose-icon {
+    transform: scale(1.12) rotate(-6deg);
+}
+
+.choose-blue:hover .choose-icon {
+    box-shadow:
+        0 10px 25px rgba(56, 89, 168, 0.30);
+}
+
+.choose-yellow:hover .choose-icon {
+    box-shadow:
+        0 10px 25px rgba(227, 165, 36, 0.35);
+}
+
+
+/* Image floating animation */
+.why-img-main {
+    animation:
+        whyImageReveal 0.9s ease 0.2s both,
+        whyFloatMain 5s ease-in-out 1.2s infinite;
+}
+
+.why-img-top {
+    animation:
+        whyImageReveal 0.9s ease 0.4s both,
+        whyFloatTop 6s ease-in-out 1.4s infinite;
+}
+
+.why-img-bottom {
+    animation:
+        whyImageReveal 0.9s ease 0.6s both,
+        whyFloatBottom 5.5s ease-in-out 1.6s infinite;
+}
+
+
+/* Keep hover stronger than floating */
+.why-img:hover {
+    transform: translateY(-8px) scale(1.015);
+}
+
+
+/* Decorative dots movement */
+.why-yellow-dots {
+    animation: whyDotsMove 7s ease-in-out infinite;
+}
+
+.why-blue-dots {
+    animation: whyDotsMoveReverse 8s ease-in-out infinite;
+}
+
+
+/* Blue / yellow corner animation */
+.why-blue-shape,
+.why-yellow-shape {
+    animation: whyShapeFloat 6s ease-in-out infinite;
+}
+
+
+/* Heading line animation */
+.why-title-line span:first-child {
+    animation: whyLineBlue 2.5s ease-in-out infinite;
+}
+
+.why-title-line span:nth-child(2) {
+    animation: whyLineYellow 2.5s ease-in-out 0.3s infinite;
+}
+
+.why-title-line i {
+    animation: whyDotPulse 1.6s ease-in-out infinite;
+}
+
+
+/* =====================================================
+   KEYFRAMES
+===================================================== */
+
+@keyframes whyFadeLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-35px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes whyFadeRight {
+    from {
+        opacity: 0;
+        transform: translateX(35px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes whyFadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(22px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes whyCardReveal {
+    from {
+        opacity: 0;
+        transform: translateY(28px) scale(0.96);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+
+@keyframes whyImageReveal {
+    from {
+        opacity: 0;
+        transform: scale(0.92);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+@keyframes whyFloatMain {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+
+@keyframes whyFloatTop {
+    0%,
+    100% {
+        transform: translateY(0) translateX(0);
+    }
+
+    50% {
+        transform: translateY(-10px) translateX(4px);
+    }
+}
+
+
+@keyframes whyFloatBottom {
+    0%,
+    100% {
+        transform: translateY(0) translateX(0);
+    }
+
+    50% {
+        transform: translateY(8px) translateX(-3px);
+    }
+}
+
+
+@keyframes whyDotsMove {
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(8px, -8px);
+    }
+}
+
+
+@keyframes whyDotsMoveReverse {
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(-8px, 8px);
+    }
+}
+
+
+@keyframes whyShapeFloat {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-7px);
+    }
+}
+
+
+@keyframes whyLineBlue {
+    0%,
+    100% {
+        width: 55px;
+        opacity: 1;
+    }
+
+    50% {
+        width: 68px;
+        opacity: 0.75;
+    }
+}
+
+
+@keyframes whyLineYellow {
+    0%,
+    100% {
+        width: 45px;
+        opacity: 1;
+    }
+
+    50% {
+        width: 58px;
+        opacity: 0.75;
+    }
+}
+
+
+@keyframes whyDotPulse {
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.45);
+        opacity: 0.55;
+    }
+}
+
+
+/* =====================================================
+   ACCESSIBILITY
+   Reduce animations if user prefers
+===================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .why-content,
+    .why-image-wrapper,
+    .why-sub-title,
+    .why-main-title,
+    .why-description,
+    .why-title-line,
+    .why-feature-row > div,
+    .why-img-main,
+    .why-img-top,
+    .why-img-bottom,
+    .why-yellow-dots,
+    .why-blue-dots,
+    .why-blue-shape,
+    .why-yellow-shape,
+    .why-title-line span,
+    .why-title-line i {
+        animation: none !important;
+    }
+
+}
 
 /* ======================================================
    REVIEW CARD
@@ -1841,7 +2887,7 @@ p {
 
     width: calc(100% + 110px);
 
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
 
     transform: translateY(-50%);

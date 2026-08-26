@@ -57,21 +57,14 @@ $(window).on('load', function () {
     //     }
     // });
     $("#stuent-review").owlCarousel({
-
         loop: true,
         center: true,
-
         margin: 25,
-
         nav: true,
         dots: true,
-
         autoplay: true,
-
         autoplayTimeout: 4000,
-
         autoplayHoverPause: true,
-
         smartSpeed: 800,
 
         navText: [
@@ -89,11 +82,13 @@ $(window).on('load', function () {
             },
 
             576: {
+                nav: false,
                 items: 1,
                 center: false
             },
 
             768: {
+                 nav: false,
                 items: 2,
                 center: false
             },
